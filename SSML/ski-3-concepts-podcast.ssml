@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Azure Neural TTS SSML for "The 3 Core Concepts of Skiing" Podcast
+  Voices:
+    - John (Host): en-US-GuyNeural
+    - Alice (Guest): en-US-JennyNeural
+-->
+
+<!-- Introduction -->
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="en-US">
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="newscast-casual">
+      <prosody rate="+3%" pitch="+2%">
+        Welcome back to Ski Mastery Podcast!
+      </prosody>
+    </mstts:express-as>
+     I'm John, and today we have Alice with us.
+     <prosody pitch="+5%">
+      Alice, are you ready to dive deep into what actually makes skiing work?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <mstts:express-as style="cheerful" styledegree="0.9">
+      <prosody rate="+5%">
+        Absolutely!
+      </prosody>
+    </mstts:express-as>
+     I've been skiing for years, but I feel like I'm still just you know,
+    <prosody rate="-5%">
+      hoping for the best on every turn.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.1">
+      <prosody pitch="+12%">Ha!</prosody>
+       </mstts:express-as>
+    I love that honesty.
+     Well, today we're going to change that.
+     We're going to break down the <emphasis level="moderate">three core concepts</emphasis>
+    that govern every single movement you make on skis.
+     And I promise, we'll keep it practical and fun—
+    <prosody rate="-8%">
+      no PhD required.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    Perfect.
+     <prosody pitch="+8%">
+      So where do we start?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <prosody rate="-3%">
+      OK, so imagine skiing as a <emphasis>three-legged stool</emphasis>.
+    </prosody>
+     Each leg represents one of the three core skills:
+     <emphasis level="moderate">Pressure Control</emphasis>,
+     <emphasis level="moderate">Rotational Control</emphasis>,
+     and <emphasis level="moderate">Edging Control</emphasis>.
+    <break time="350ms"/>
+    Take away any one of these, and the whole thing collapses.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    A three-legged stool—I like that visual.
+     <prosody pitch="+6%">
+      So these three skills support everything?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <emphasis level="strong">Everything.</emphasis>
+     Whether you're making gentle cruising turns on a groomed run
+    or charging down a black diamond, you're using these three skills.
+    <break time="350ms"/>
+    The difference between a beginner and an expert is just
+    <prosody rate="-5%">
+      how skillfully they blend them together.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    OK, so let's break them down one by one.
+     <prosody pitch="+8%">
+      What's the first pillar?
+    </prosody>
+      <break time="350ms"/>
+    </prosody>
+  </voice>
+  <!-- Pressure Control Section -->
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="newscast">
+      The first pillar is <emphasis level="strong">Pressure Control</emphasis>.
+    </mstts:express-as>
+     This is all about managing the forces between you and the snow.
+    <break time="350ms"/>
+    And here's the thing—when you turn, the snow isn't just sitting there passively.
+     <prosody rate="+3%">
+      It's pushing back on you, sometimes with a force that's
+      <emphasis level="strong">twice your body weight</emphasis>!
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <mstts:express-as style="excited">
+      <prosody pitch="+15%">
+        Twice my body weight?
+      </prosody>
+       That's wild!
+    </mstts:express-as>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.0">
+      Right?
+    </mstts:express-as>
+     So pressure control is about managing that force in three different ways.
+    <break time="350ms"/>
+    <prosody rate="-5%">
+      First, you need to control where the pressure sits along the length of your ski—
+      that's <emphasis>fore-aft pressure</emphasis>.
+    </prosody>
+     <prosody pitch="+3%">
+      Are you pressuring the tip, the middle, or the tail?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+10%">
+      And that matters because...?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <prosody rate="-8%">
+      Because your ski is shaped like an hourglass, right?
+       That curve is called the <emphasis>sidecut</emphasis>.
+       When you flex the ski properly along its entire length,
+      that sidecut engages with the snow and carves a clean arc.
+    </prosody>
+    <break time="350ms"/>
+    But if your weight slips back even a little, you lose the tip—
+     the ski flattens out, and you start skidding instead of carving.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    Ah, the dreaded skid.
+     <prosody pitch="+8%">
+      So how do we stay forward without, like, falling over our tips?
+    </prosody>
+       </prosody>
+  </voice>
+  <!-- Three-Joint System -->
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="friendly">
+      Great question.
+    </mstts:express-as>
+     This is where it gets interesting.
+    <break time="350ms"/>
+    <prosody rate="-5%">
+      Your body has three major joints that control fore-aft pressure:
+       your <emphasis>ankles</emphasis>,
+       your <emphasis>knees</emphasis>,
+       and your <emphasis>hips</emphasis>.
+    </prosody>
+    <break time="350ms"/>
+    <prosody rate="+3%">
+      And here's the kicker—they sometimes work in <emphasis>opposition</emphasis> to each other.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+10%">
+      Opposition? What do you mean?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    OK, let's start simple.
+     <prosody rate="-10%">
+      Imagine your ski is a seesaw, and your boot is the fulcrum right in the middle.
+      <break time="350ms"/>
+      If you flex your ankle—you know, push your shin gently into the front of the boot—
+       your center of mass moves forward, and the tip of the seesaw presses down.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    So ankle flexion equals forward pressure.
+     That makes sense.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    Exactly.
+     <prosody pitch="+5%">
+      But now here's the paradox:
+    </prosody>
+     <prosody rate="-8%">
+      if you bend your knees—like really bend them, bringing your heels up toward your glutes—
+       your center of mass <emphasis level="strong">actually moves backward</emphasis>.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <mstts:express-as style="surprised">
+      <prosody pitch="+18%">
+        Wait, what?
+      </prosody>
+       <prosody pitch="+12%">
+        So "bend your knees" actually sends my weight back?
+      </prosody>
+    </mstts:express-as>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="0.9">
+      <emphasis level="strong">Exactly!</emphasis>
+    </mstts:express-as>
+    <break time="350ms"/>
+    <prosody rate="-5%">
+      That's why "bend your knees" is maybe the <emphasis>worst advice</emphasis> in skiing
+      if it's not qualified.
+    </prosody>
+    <break time="350ms"/>
+    If a beginner tries to get forward just by bending their knees deeply,
+     without also flexing their ankles and hinging at the hips,
+     they end up sitting back.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody rate="+5%">
+      In the backseat!
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    In the backseat.
+     <emphasis>Every time.</emphasis>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    OK, so what about the hips?
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <prosody rate="-5%">
+      The hips are the <emphasis level="strong">big engine</emphasis>.
+       If you hinge forward at the hips—
+      like you're taking a slow, controlled bow with a flat back—
+       you move your center of mass significantly forward.
+       That drives major pressure onto the tip.
+    </prosody>
+    <break time="350ms"/>
+    But if you extend your hips, like you're "standing up,"
+     your weight moves back toward the center or even the tail.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody rate="-3%">
+      So it's like an orchestra—all three joints have to work together perfectly.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.0">
+      Exactly.
+    </mstts:express-as>
+     <prosody rate="-8%">
+      The ankle is your <emphasis>fine-tuner</emphasis> for the tip.
+       The hip is the <emphasis>master switch</emphasis> for your overall stance.
+       And the knee is the <emphasis>dynamic controller</emphasis>
+      for absorbing and releasing pressure throughout the turn.
+    </prosody>
+    <break time="350ms"/>
+    They all have to be perfectly choreographed.
+      <break time="350ms"/>
+    </prosody>
+  </voice>
+  <!-- Lateral Pressure -->
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    OK, so we've covered pressure along the length of the ski.
+     <prosody pitch="+8%">
+      What about side to side—from one ski to the other?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="friendly">
+      Ah, yes.
+    </mstts:express-as>
+     The second dimension of pressure control.
+    <break time="350ms"/>
+    <prosody rate="-5%" pitch="+3%">
+      Here's the golden rule: in a carved turn,
+      about <emphasis level="strong">80 percent</emphasis> of your weight
+      should be on your outside ski.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <mstts:express-as style="surprised">
+      <prosody pitch="+15%">
+        Eighty percent?
+      </prosody>
+       <prosody pitch="+8%">
+        So the inside ski is basically just... there?
+      </prosody>
+    </mstts:express-as>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    It's there, but it's much lighter.
+    <break time="350ms"/>
+    <prosody rate="-8%">
+      And to make this happen, you need two coordinated movements.
+       First, your inside leg has to get shorter—
+       you flex the knee and hip more on the inside leg.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+8%">
+      So I'm kind of collapsing on the inside?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    Well, "collapsing" sounds bad.
+     <prosody rate="-5%">
+      Think of it more like your inside leg is <emphasis>actively shortening</emphasis>
+      to allow your body to tip into the turn.
+    </prosody>
+    <break time="350ms"/>
+    But—and this is critical—
+     <emphasis level="strong">both of your ankles stay equally flexed</emphasis>.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+8%">
+      Why is that important?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    Because if you straighten your inside ankle,
+    your fore-aft balance goes out the window.
+     You'll end up in the backseat again.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody rate="+5%">
+      Everything comes back to that backseat, doesn't it?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="0.9">
+      <prosody pitch="+8%">
+        It really does!
+      </prosody>
+    </mstts:express-as>
+    <break time="350ms"/>
+    Now, here's the second movement, and it's counterintuitive:
+     <prosody rate="-8%">
+      while your legs are tipping into the turn,
+      your upper body—your torso—
+      has to tilt <emphasis>toward the outside ski</emphasis>.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <mstts:express-as style="surprised">
+      <prosody pitch="+12%">
+        Wait, hold on.
+      </prosody>
+       I always thought you lean your chest into the turn to start it.
+       <prosody pitch="+10%">
+        Why would you tilt toward the outside ski?
+         That feels like you're tilting uphill!
+      </prosody>
+    </mstts:express-as>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="friendly">
+      I know it feels weird!
+    </mstts:express-as>
+    <break time="350ms"/>
+    <prosody rate="-10%">
+      But here's the thing: your legs are already tipping into the turn.
+       If your upper body just followed them,
+      you'd collapse inward and lose that outside edge completely.
+      <break time="350ms"/>
+      By tilting your upper body out and downhill,
+      you create a counterbalance—
+       that's called <emphasis>angulation</emphasis>—
+       and that keeps the maximum pressure on that outside ski
+      so it can carve cleanly.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody rate="-3%">
+      It's like a fighter jet banking into a turn.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.1">
+      <prosody pitch="+10%">
+        Yes!
+      </prosody>
+       Perfect analogy.
+    </mstts:express-as>
+     The wings tip radically, but the cockpit stays oriented and stable.
+      <break time="350ms"/>
+    </prosody>
+  </voice>
+  <!-- Force Magnitude -->
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    OK, we've covered fore-aft and side-to-side.
+     <prosody pitch="+8%">
+      What's the third dimension?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <prosody rate="-5%">
+      The third dimension is regulating the <emphasis>magnitude</emphasis> of the force—
+       basically, how much pressure you're creating throughout the turn.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+8%">
+      And how do we do that?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <prosody rate="-8%">
+      Imagine you're on a trampoline.
+       You're bouncing softly, but you're trying not to get launched into the air.
+      <break time="350ms"/>
+      You wouldn't just stand there stiff as a board, right?
+       You'd constantly be flexing and extending your knees and hips
+      to absorb the force.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody rate="-3%">
+      So I'm absorbing the peaks of the force by flexing,
+       and then extending to generate new force when I need it.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.0">
+      <emphasis level="strong">Exactly!</emphasis>
+    </mstts:express-as>
+     That's how you keep the skis glued to the snow.
+    <break time="350ms"/>
+    It stops that jittery, out-of-control feeling you get
+    when you try to muscle a turn by being too rigid.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody rate="-3%">
+      Absorbing versus resisting.
+       That's a huge distinction.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    It really is.
+    <break time="350ms"/>
+    <prosody rate="-5%">
+      And here's the key: <emphasis>timing is everything</emphasis>.
+       You want to compress—flex your knees and hips—
+      right as the force peaks, usually near the fall line.
+      <break time="350ms"/>
+      Then you extend smoothly as the turn finishes to set up the next one.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    So it's like a suspension system on a car.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.0">
+      Or a mountain bike!
+    </mstts:express-as>
+     You let your legs actively compress to absorb the energy.
+     You don't stiffen and lock your knees.
+      <break time="700ms"/>
+    </prosody>
+  </voice>
+  <!-- Rotational Control Section -->
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    OK, so we've got pressure under control.
+     <prosody pitch="+8%">
+      Now we need to point the skis where we want to go, right?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.0">
+      Exactly.
+    </mstts:express-as>
+     <mstts:express-as style="newscast">
+      That's our second pillar: <emphasis level="strong">Rotational Control</emphasis>.
+    </mstts:express-as>
+     This is all about steering.
+     And the key word here is <emphasis>separation</emphasis>.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+10%">
+      Separation of what?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <prosody rate="-8%">
+      Separation of your <emphasis>lower body</emphasis> from your <emphasis>upper body</emphasis>.
+      <break time="350ms"/>
+      The ideal is <emphasis>leg rotation</emphasis>—
+       meaning the legs are moving independently inside the hip socket,
+      controlling the direction of the skis,
+       while your upper body stays quiet and stable.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+6%">
+      So the legs are the engine for turning, and the upper body just... hangs out?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    Well, it's not just hanging out—
+     it's providing that crucial counterbalance we talked about earlier.
+    <break time="350ms"/>
+    But yes, the legs do the steering work.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+8%">
+      Why is that so much better than just twisting my whole body into the turn?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <prosody rate="-5%">
+      It all comes down to <emphasis>precision</emphasis>.
+      <break time="350ms"/>
+      When you steer with your legs, you control everything:
+       the duration,
+       the amount,
+       the rate,
+       the speed of the turn—
+       with surgical precision.
+    </prosody>
+    <break time="350ms"/>
+    And you can control each ski independently,
+    which is huge for adapting to terrain.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody rate="-3%">
+      I remember when I was learning, I'd throw my shoulders downhill,
+       thinking "where my shoulders go, the skis will follow."
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="friendly">
+      Classic pitfall!
+    </mstts:express-as>
+     <prosody rate="-8%">
+      That's <emphasis>upper body rotation</emphasis>.
+       When you lead with your torso—your shoulders, your head—
+       the legs are just passively following along.
+      <break time="350ms"/>
+      And it's almost impossible to control the outcome.
+       You get this really abrupt start to the turn that's hard to stop.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+8%">
+      And the inside ski starts turning first, right?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    Often, yes.
+     Which just destroys the pressure application we were just talking about.
+    <break time="350ms"/>
+    <prosody rate="-5%">
+      So the rule is simple:
+      <emphasis>keep the core calm, let the legs do the work</emphasis>.
+    </prosody>
+       </prosody>
+  </voice>
+  <!-- Tray of Drinks Drill -->
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    That sounds simple in theory, but
+    <prosody pitch="+8%">
+      how do you actually teach someone to do that?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="0.9">
+      One of my favorite drills is the <emphasis>tray of drinks drill</emphasis>.
+    </mstts:express-as>
+    <break time="350ms"/>
+    <prosody rate="-10%">
+      Imagine you're holding a delicate tray of drinks in front of you—
+       like a fancy waiter—
+       and you absolutely cannot spill them.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    OK, I'm visualizing it.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <prosody rate="-8%">
+      Now, with your hands and shoulders immobilized like that,
+       try to steer your skis back and forth across the slope.
+      <break time="350ms"/>
+      You're forced to use only the small, powerful muscles of your legs.
+       You have to steer exclusively from your hip sockets.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <mstts:express-as style="excited">
+      That's brilliant.
+    </mstts:express-as>
+     <prosody rate="-3%">
+      It's like the lighthouse metaphor, right?
+       The upper body is the lighthouse—fixed, steady, oriented downhill—
+       and the legs are like the boat's rudder, moving subtly underneath.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.1">
+      <emphasis level="strong">Exactly!</emphasis>
+    </mstts:express-as>
+     The lighthouse stays steady, observing the entire trajectory.
+     The rudder does the work.
+      <break time="700ms"/>
+    </prosody>
+  </voice>
+  <!-- Edging Control Section -->
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    Alright, we've managed force and direction.
+     <prosody pitch="+8%">
+      Now what's the third pillar?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="newscast">
+      The third pillar is <emphasis level="strong">Edging Control</emphasis>—
+       the geometry of skiing.
+    </mstts:express-as>
+    <break time="350ms"/>
+    <prosody rate="-5%">
+      This is about how we manipulate the ski's angle relative to the snow
+      to create those beautiful, clean carved arcs.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+8%">
+      And this is where we get into inclination versus angulation, right?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.0">
+      You got it.
+    </mstts:express-as>
+       </prosody>
+  </voice>
+  <!-- Inclination -->
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <prosody rate="-8%">
+      Let's start with <emphasis>inclination</emphasis>.
+       This is the simpler concept.
+      <break time="350ms"/>
+      It's just moving your entire center of mass to the inside of the turn
+      to balance against the lateral forces—
+       like leaning a motorcycle or bicycle into a turn.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+8%">
+      So the whole body leans as one unit?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    Exactly.
+     <prosody rate="-5%">
+      Your feet tip, your knees tip, your hips tip, your shoulders follow.
+      <break time="350ms"/>
+      Your entire body is leaning into the hill.
+    </prosody>
+    <break time="350ms"/>
+    And the degree of inclination is directly proportional
+    to your speed and turn radius.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    So faster speed and tighter turns need more lean.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    Precisely.
+    <break time="350ms"/>
+    <prosody pitch="+3%">
+      But here's the problem:
+    </prosody>
+     <prosody rate="-8%">
+      if you only use inclination—if you just lean your whole body in—
+       you might feel balanced momentarily,
+       but you're not tipping your skis enough to generate the edge angle you need.
+      <break time="350ms"/>
+      You'll end up skidding to complete the turn.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+8%">
+      So that's where angulation comes in?
+    </prosody>
+       </prosody>
+  </voice>
+  <!-- Angulation -->
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.0">
+      Exactly.
+    </mstts:express-as>
+    <break time="350ms"/>
+    <prosody rate="-8%">
+      <emphasis>Angulation</emphasis> is more complex and higher performance.
+      <break time="350ms"/>
+      It's about creating <emphasis>angles between body parts</emphasis>—
+       subtle separations that allow you to achieve higher edge angles
+      while maintaining center-of-mass stability.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    OK, break it down for me.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <prosody rate="-10%">
+      There are two key types.
+      <break time="350ms"/>
+      First is <emphasis>knee angulation</emphasis>.
+       This is where your lower leg tips more aggressively than your upper leg,
+      creating an angle at the knee joint.
+      <break time="350ms"/>
+      It allows quick, fine adjustments of edge angle,
+       and it's crucial in short turns where you don't have time
+      for massive inclination.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+8%">
+      And the second type?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <prosody rate="-10%">
+      <emphasis>Hip angulation</emphasis>.
+      <break time="350ms"/>
+      This is where your legs tip significantly more than your upper body,
+      creating a necessary angle at your hip socket.
+      <break time="350ms"/>
+      You see this in high-performance turns that need aggressive edge angles—
+       the skier's legs are almost flat on the snow,
+      but their torso is still pretty centered.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody rate="-3%">
+      So you're maximizing the edge angle
+      while keeping your center of mass stable over the skis.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="0.9">
+      Exactly.
+    </mstts:express-as>
+    <break time="350ms"/>
+    <prosody rate="-8%">
+      And here's a great metaphor:
+      hip angulation isn't about bowing forward—
+       it's about <emphasis>pushing your hip laterally into the hill</emphasis>,
+       like you're trying to push a button into a tight pocket of your jeans.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <mstts:express-as style="excited">
+      <prosody pitch="+10%">
+        I love that!
+      </prosody>
+       So it's a lateral push, not a forward fold.
+    </mstts:express-as>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    Right.
+     <prosody rate="-5%">
+      You're tilting your pelvis, not folding your spine.
+      <break time="350ms"/>
+      The angles should feel stable and supported—
+       rooted by strong engagement and compression of the outside leg.
+    </prosody>
+       </prosody>
+  </voice>
+  <!-- The Grape Under Your Little Toe -->
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    OK, so I get the concepts.
+     <prosody pitch="+8%">
+      But when I'm skiing, how do I actually feel this in my body?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.0">
+      Ah, great question.
+    </mstts:express-as>
+    <break time="350ms"/>
+    <prosody rate="-5%">
+      Here's one of my favorite teaching cues:
+      imagine you're <emphasis>squashing a grape</emphasis>
+      under the little toe of your outside foot.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody pitch="+12%">
+      A grape under my little toe?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="friendly">
+      I know it sounds weird, but trust me.
+    </mstts:express-as>
+    <break time="350ms"/>
+    <prosody rate="-10%">
+      This highly specific cue forces your foot to tip laterally inside the boot,
+       which immediately drives the initiation of early knee angulation.
+      <break time="350ms"/>
+      By focusing your mental energy on just that little toe,
+       you engage the edge before your major body mass starts to move.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody rate="-3%">
+      So it eliminates the delay—
+       I'm getting early, clean edge engagement instead of skidding.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.0">
+      Exactly.
+    </mstts:express-as>
+    <break time="350ms"/>
+    <prosody rate="-5%">
+      And you'll hear the difference:
+       instead of that loud ripping sound of skidding later in the turn,
+       you get this clean, scratchy sound of the edge engaging early.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <mstts:express-as style="excited">
+      Immediate feedback!
+    </mstts:express-as>
+      <break time="700ms"/>
+    </prosody>
+  </voice>
+  <!-- Putting It All Together -->
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <prosody rate="-3%">
+      Alright Alice, we've covered all three pillars.
+      <break time="350ms"/>
+      But here's the thing you need to understand:
+    </prosody>
+     <prosody rate="-8%">
+      these three skills are <emphasis>constantly interwoven and interdependent</emphasis>.
+      <break time="350ms"/>
+      You can't get optimal edge control without precise pressure distribution.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    And you can't manage pressure without smooth rotational input.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="0.9">
+      Exactly.
+    </mstts:express-as>
+     It's a constant feedback loop.
+    <break time="350ms"/>
+    <prosody rate="-5%">
+      Let me walk you through a full turn cycle
+      to show you how they all work together.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <mstts:express-as style="excited">
+      Please do!
+    </mstts:express-as>
+       </prosody>
+  </voice>
+  <!-- The Complete Turn Cycle -->
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <prosody rate="-10%">
+      OK, imagine you're just finishing a turn and about to start the next one.
+      <break time="350ms"/>
+      Here's what happens.
+       You start by controlling your center of mass relative to your base of support—
+       that's your fore-aft pressure.
+       You flex your ankle and hinge slightly at the hip to drive pressure forward.
+       Simultaneously, you initiate steering with active leg rotation.
+       You're turning your femurs in the hip socket, separate from your upper body.
+       As the turn develops, you manage ski-to-ski pressure.
+      <break time="350ms"/>
+      You make sure the majority of force is on your outside ski
+      by shortening the inside leg
+      and tilting your upper body toward the outside ski.
+       You get the high edge angles you need
+      through a precise combination of inclination and angulation.
+      <break time="350ms"/>
+      You're squashing that grape under your little toe
+      to engage the edge early.
+       And all the while, you're regulating the magnitude of force—
+       absorbing the peak pressure with timely compression
+      as you hit the fall line,
+       keeping your skis glued to the snow like a trampoline.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody rate="-3%" pitch="+3%">
+      That's... a lot happening at once.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.0">
+      It is!
+    </mstts:express-as>
+    <break time="350ms"/>
+    <prosody rate="-5%">
+      But here's the beautiful thing:
+      when you break it down into specific joint movements—
+       ankle, knee, hip—
+       it suddenly becomes actionable.
+      <break time="350ms"/>
+      You stop trying to "try harder"
+      and start trying to <emphasis>"move precisely"</emphasis>.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody rate="-3%">
+      Move precisely.
+       I love that.
+    </prosody>
+      <break time="700ms"/>
+    </prosody>
+  </voice>
+  <!-- Closing Thoughts -->
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="newscast-casual">
+      <prosody rate="-3%">
+        Alright, let's wrap this up.
+        <break time="350ms"/>
+        We covered three core skills:
+         <emphasis>Pressure Control</emphasis>—managing force magnitude and distribution.
+        <break time="350ms"/>
+        <emphasis>Rotational Control</emphasis>—steering with our legs from the hip sockets.
+        <break time="350ms"/>
+        And <emphasis>Edging Control</emphasis>—tipping our skis using inclination and angulation.
+      </prosody>
+    </mstts:express-as>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    And they're all interdependent—a constant feedback loop.
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.0">
+      Exactly.
+    </mstts:express-as>
+    <break time="350ms"/>
+    <prosody rate="-8%">
+      Now, before we go, I want to leave you with a final thought.
+       The greatest difference between a novice and an expert skier
+      isn't how fast they can go—
+       it's how skillfully they utilize resistance and absorption
+      to manage the immense forces exerted by the snow.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody rate="-3%">
+      Absorbing, not resisting.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    Right.
+    <break time="350ms"/>
+    <prosody rate="-5%" pitch="+3%">
+      So here's your challenge for the next time you're on the mountain:
+      <break time="700ms"/>
+      What subtle movement are you going to focus on mastering?
+      <break time="350ms"/>
+      Is it that precise ankle flex leading the turn?
+       Is it that timely compression at the fall line?
+       Is it keeping your upper body quiet while your legs do the steering?
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <prosody rate="-3%">
+      I think I'm going to focus on that grape under my little toe.
+      <break time="350ms"/>
+      I want to feel that early edge engagement.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="1.1">
+      <prosody pitch="+8%">
+        Perfect!
+      </prosody>
+       That's a great place to start.
+    </mstts:express-as>
+    <break time="700ms"/>
+    <prosody rate="+3%">
+      Alright everyone, we hope this deep dive helps you
+      find that perfect, quiet, controlled arc next time you hit the slopes.
+    </prosody>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <mstts:express-as style="cheerful" styledegree="1.0">
+      <prosody rate="-3%">
+        And remember—you're not fighting the mountain.
+         You're dancing with it.
+      </prosody>
+    </mstts:express-as>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-GuyNeural">
+    <prosody rate="+23%">
+    <mstts:express-as style="cheerful" styledegree="0.9">
+      Beautifully said, Alice.
+       Until next time, keep exploring!
+    </mstts:express-as>
+       </prosody>
+  </voice>
+
+  <voice name="en-US-JennyNeural">
+    <prosody rate="+21%">
+    <mstts:express-as style="cheerful" styledegree="1.1">
+      <prosody pitch="+5%">
+        Happy skiing!
+      </prosody>
+    </mstts:express-as>
+       </prosody>
+  </voice>
+</speak>

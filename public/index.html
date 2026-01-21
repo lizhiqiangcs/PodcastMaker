@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音频转录工具</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .upload-section {
+            background: #f8f9fa;
+            border: 3px dashed #667eea;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            transition: all 0.3s;
+        }
+
+        .upload-section:hover {
+            border-color: #764ba2;
+            background: #f0f1f5;
+        }
+
+        .file-input-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .file-label {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: transform 0.2s;
+            display: inline-block;
+        }
+
+        .file-label:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .file-name {
+            margin-top: 15px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .upload-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 15px 50px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: all 0.3s;
+        }
+
+        .upload-btn:hover:not(:disabled) {
+            background: #218838;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+        }
+
+        .upload-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .status {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 10px;
+            display: none;
+        }
+
+        .status.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+            display: block;
+        }
+
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            display: block;
+        }
+
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            display: block;
+        }
+
+        .transcript-section {
+            margin-top: 30px;
+            display: none;
+        }
+
+        .transcript-section.show {
+            display: block;
+        }
+
+        .transcript-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .transcript-header h2 {
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        .download-btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .download-btn:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        .transcript-content {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            max-height: 500px;
+            overflow-y: auto;
+            line-height: 1.8;
+            color: #333;
+            white-space: pre-wrap;
+            font-size: 15px;
+        }
+
+        .speaker {
+            font-weight: 600;
+            color: #667eea;
+            margin-top: 15px;
+            display: block;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎙️ 音频转录工具</h1>
+
+        <div class="upload-section">
+            <div class="file-input-wrapper">
+                <input type="file" id="audioFile" accept="audio/*" />
+                <label for="audioFile" class="file-label">选择音频文件</label>
+            </div>
+            <div class="file-name" id="fileName">未选择文件</div>
+            <button class="upload-btn" id="uploadBtn" disabled>开始转录</button>
+        </div>
+
+        <div class="status" id="status"></div>
+
+        <div class="transcript-section" id="transcriptSection">
+            <div class="transcript-header">
+                <h2>转录结果</h2>
+                <button class="download-btn" id="downloadBtn">下载文本</button>
+            </div>
+            <div class="transcript-content" id="transcriptContent"></div>
+        </div>
+    </div>
+
+    <script>
+        const audioFile = document.getElementById('audioFile');
+        const fileName = document.getElementById('fileName');
+        const uploadBtn = document.getElementById('uploadBtn');
+        const status = document.getElementById('status');
+        const transcriptSection = document.getElementById('transcriptSection');
+        const transcriptContent = document.getElementById('transcriptContent');
+        const downloadBtn = document.getElementById('downloadBtn');
+
+        let selectedFile = null;
+        let currentTranscriptId = null;
+
+        audioFile.addEventListener('change', (e) => {
+            selectedFile = e.target.files[0];
+            if (selectedFile) {
+                fileName.textContent = `已选择: ${selectedFile.name}`;
+                uploadBtn.disabled = false;
+            } else {
+                fileName.textContent = '未选择文件';
+                uploadBtn.disabled = true;
+            }
+        });
+
+        uploadBtn.addEventListener('click', async () => {
+            if (!selectedFile) return;
+
+            uploadBtn.disabled = true;
+            transcriptSection.classList.remove('show');
+            showStatus('正在上传音频文件并开始转录...', 'info');
+
+            const formData = new FormData();
+            formData.append('audio', selectedFile);
+
+            try {
+                const response = await fetch('/api/transcribe', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || '转录失败');
+                }
+
+                // 显示转换状态
+                let statusMessage = '转录任务已创建';
+                if (data.converted) {
+                    statusMessage += '（音频已自动转换为单声道 MP3）';
+                }
+                statusMessage += '，正在处理中...<span class="loading"></span>';
+                showStatus(statusMessage, 'info');
+
+                // 轮询检查转录状态
+                checkTranscriptionStatus(data.transcriptionId);
+
+            } catch (error) {
+                showStatus(`错误: ${error.message}`, 'error');
+                uploadBtn.disabled = false;
+            }
+        });
+
+        async function checkTranscriptionStatus(transcriptionId) {
+            try {
+                const response = await fetch(`/api/transcription/${transcriptionId}`);
+                const data = await response.json();
+
+                if (data.status === 'Succeeded') {
+                    showStatus('转录成功！', 'success');
+                    currentTranscriptId = transcriptionId;
+                    displayTranscript(data.transcript);
+                    uploadBtn.disabled = false;
+                } else if (data.status === 'Failed') {
+                    showStatus('转录失败: ' + (data.error || '未知错误'), 'error');
+                    uploadBtn.disabled = false;
+                } else if (data.status === 'Running') {
+                    showStatus('正在转录中...<span class="loading"></span>', 'info');
+                    setTimeout(() => checkTranscriptionStatus(transcriptionId), 5000);
+                } else {
+                    showStatus(`转录状态: ${data.status}<span class="loading"></span>`, 'info');
+                    setTimeout(() => checkTranscriptionStatus(transcriptionId), 5000);
+                }
+            } catch (error) {
+                showStatus(`检查状态时出错: ${error.message}`, 'error');
+                uploadBtn.disabled = false;
+            }
+        }
+
+        function displayTranscript(transcript) {
+            transcriptContent.innerHTML = formatTranscript(transcript);
+            transcriptSection.classList.add('show');
+        }
+
+        function formatTranscript(transcript) {
+            // 简单格式化转录文本，按说话人分段
+            return transcript.replace(/Speaker (\d+):/g, '<span class="speaker">说话人 $1:</span>');
+        }
+
+        function showStatus(message, type) {
+            status.innerHTML = message;
+            status.className = 'status ' + type;
+        }
+
+        downloadBtn.addEventListener('click', () => {
+            if (!currentTranscriptId) return;
+            window.location.href = `/api/download/${currentTranscriptId}`;
+        });
+    </script>
+</body>
+</html>

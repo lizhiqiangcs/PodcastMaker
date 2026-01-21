@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure TTS Podcast Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 16px;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .file-list {
+            display: grid;
+            gap: 10px;
+        }
+
+        .file-item {
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .file-item:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .file-item.selected {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+
+        .file-item.selected .file-size {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .file-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .file-icon {
+            width: 40px;
+            height: 40px;
+            background: #667eea;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .file-item.selected .file-icon {
+            background: white;
+            color: #667eea;
+        }
+
+        .file-details {
+            flex: 1;
+        }
+
+        .file-name {
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+
+        .file-size {
+            font-size: 12px;
+            color: #888;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .option-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        select, input[type="range"] {
+            padding: 10px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        select:focus {
+            border-color: #667eea;
+        }
+
+        select {
+            background: white;
+            cursor: pointer;
+        }
+
+        .slider-container {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #667eea;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background: #667eea;
+            cursor: pointer;
+            border-radius: 50%;
+            border: none;
+        }
+
+        .slider-value {
+            text-align: center;
+            font-size: 14px;
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .button-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-preview {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+
+        .btn-preview:hover:not(:disabled) {
+            background: #f8f9ff;
+        }
+
+        .btn-generate {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-generate:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .status {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            display: none;
+        }
+
+        .status.show {
+            display: block;
+        }
+
+        .status.info {
+            background: #e3f2fd;
+            color: #1976d2;
+        }
+
+        .status.success {
+            background: #e8f5e9;
+            color: #388e3c;
+        }
+
+        .status.error {
+            background: #ffebee;
+            color: #d32f2f;
+        }
+
+        .progress {
+            margin-top: 10px;
+            height: 8px;
+            background: #f0f0f0;
+            border-radius: 4px;
+            overflow: hidden;
+            display: none;
+        }
+
+        .progress.show {
+            display: block;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .audio-player {
+            margin-top: 20px;
+            padding: 20px;
+            background: #f8f9ff;
+            border-radius: 10px;
+            display: none;
+        }
+
+        .audio-player.show {
+            display: block;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .loading-spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .info-box {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .voice-preview {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .voice-preview-item {
+            flex: 1;
+            padding: 10px;
+            background: #f5f5f5;
+            border-radius: 6px;
+            font-size: 12px;
+        }
+
+        .voice-preview-label {
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎙️ Azure TTS Podcast Generator</h1>
+            <p>将SSML文件转换为高质量的AI语音播客</p>
+        </div>
+
+        <div class="content">
+            <div class="info-box">
+                💡 <strong>使用说明：</strong> 选择一个SSML文件，调整语音参数，点击"试听片段"预览效果，满意后点击"生成完整音频"。
+            </div>
+
+            <!-- File Selection -->
+            <div class="section">
+                <div class="section-title">📁 选择SSML文件</div>
+                <div class="file-list" id="fileList">
+                    <div class="file-item" style="justify-content: center; color: #888;">
+                        加载中...
+                    </div>
+                </div>
+            </div>
+
+            <!-- Voice Options -->
+            <div class="section">
+                <div class="section-title">🎤 语音设置</div>
+                <div class="options-grid">
+                    <div class="option-group">
+                        <label for="johnVoice">John (Host) 声音</label>
+                        <select id="johnVoice">
+                            <optgroup label="🔥 最佳质量（AI生成）">
+                                <option value="en-US-AIGenerate1Neural">AIGenerate1 (超自然AI) ⭐️</option>
+                                <option value="en-US-AIGenerate2Neural">AIGenerate2 (超自然AI) ⭐️</option>
+                            </optgroup>
+                            <optgroup label="📻 播客推荐">
+                                <option value="en-US-GuyNeural" selected>Guy (专业清晰)</option>
+                                <option value="en-US-BrianNeural">Brian (新闻主播)</option>
+                                <option value="en-US-AndrewNeural">Andrew (温和专业)</option>
+                            </optgroup>
+                            <optgroup label="👔 商务专业">
+                                <option value="en-US-DavisNeural">Davis (温暖友好)</option>
+                                <option value="en-US-JasonNeural">Jason (成熟稳重)</option>
+                                <option value="en-US-SteffanNeural">Steffan (商务正式)</option>
+                                <option value="en-US-EricNeural">Eric (深沉权威)</option>
+                                <option value="en-US-RogerNeural">Roger (专业播报)</option>
+                            </optgroup>
+                            <optgroup label="🎯 年轻活力">
+                                <option value="en-US-TonyNeural">Tony (年轻活力)</option>
+                            </optgroup>
+                            <optgroup label="🌍 多语言增强">
+                                <option value="en-US-AndrewMultilingualNeural">Andrew Multi (多语言)</option>
+                                <option value="en-US-BrianMultilingualNeural">Brian Multi (多语言)</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div class="option-group">
+                        <label for="aliceVoice">Alice (Guest) 声音</label>
+                        <select id="aliceVoice">
+                            <optgroup label="🔥 最佳质量（AI生成）">
+                                <option value="en-US-AIGenerate1Neural">AIGenerate1 (超自然AI) ⭐️</option>
+                                <option value="en-US-AIGenerate2Neural">AIGenerate2 (超自然AI) ⭐️</option>
+                            </optgroup>
+                            <optgroup label="📻 播客推荐">
+                                <option value="en-US-JennyNeural" selected>Jenny (活泼自然)</option>
+                                <option value="en-US-EmmaNeural">Emma (清晰专业)</option>
+                                <option value="en-US-AriaNeural">Aria (专业播报)</option>
+                                <option value="en-US-AvaNeural">Ava (年轻现代)</option>
+                            </optgroup>
+                            <optgroup label="👔 商务专业">
+                                <option value="en-US-SaraNeural">Sara (友好温和)</option>
+                                <option value="en-US-JaneNeural">Jane (成熟专业)</option>
+                                <option value="en-US-MichelleNeural">Michelle (专业权威)</option>
+                                <option value="en-US-MonicaNeural">Monica (现代自信)</option>
+                            </optgroup>
+                            <optgroup label="💝 温柔亲切">
+                                <option value="en-US-NancyNeural">Nancy (温柔亲切)</option>
+                                <option value="en-US-AmberNeural">Amber (年轻活力)</option>
+                                <option value="en-US-AshleyNeural">Ashley (友好随和)</option>
+                                <option value="en-US-CoraNeural">Cora (温暖可靠)</option>
+                            </optgroup>
+                            <optgroup label="✨ 优雅精致">
+                                <option value="en-US-ElizabethNeural">Elizabeth (优雅精致)</option>
+                            </optgroup>
+                            <optgroup label="🌍 多语言增强">
+                                <option value="en-US-AvaMultilingualNeural">Ava Multi (多语言)</option>
+                                <option value="en-US-EmmaMultilingualNeural">Emma Multi (多语言)</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div class="option-group">
+                        <label for="overallSpeed">整体语速</label>
+                        <div class="slider-container">
+                            <input type="range" id="overallSpeed" min="0.75" max="1.25" step="0.05" value="1.0">
+                            <div class="slider-value" id="speedValue">1.0x (正常)</div>
+                        </div>
+                    </div>
+
+                    <div class="option-group">
+                        <label for="audioQuality">音频质量</label>
+                        <select id="audioQuality">
+                            <option value="audio-24khz-96kbitrate-mono-mp3">标准 (24kHz, 96kbps)</option>
+                            <option value="audio-24khz-160kbitrate-mono-mp3" selected>高质量 (24kHz, 160kbps) - 推荐</option>
+                            <option value="audio-48khz-192kbitrate-mono-mp3">超高质量 (48kHz, 192kbps)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="voice-preview">
+                    <div class="voice-preview-item">
+                        <div class="voice-preview-label">当前John声音</div>
+                        <div id="johnPreview">Guy (专业男声)</div>
+                    </div>
+                    <div class="voice-preview-item">
+                        <div class="voice-preview-label">当前Alice声音</div>
+                        <div id="alicePreview">Jenny (活泼女声)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="button-group">
+                <button class="btn-preview" id="previewBtn" disabled>
+                    <span>🎧</span>
+                    <span>试听片段 (30秒)</span>
+                </button>
+                <button class="btn-generate" id="generateBtn" disabled>
+                    <span>🎵</span>
+                    <span>生成完整音频</span>
+                </button>
+            </div>
+
+            <!-- Status Messages -->
+            <div class="status" id="statusMessage"></div>
+            <div class="progress" id="progressBar">
+                <div class="progress-bar" id="progressBarFill"></div>
+            </div>
+
+            <!-- Audio Player -->
+            <div class="audio-player" id="audioPlayer">
+                <div style="font-weight: 600; margin-bottom: 10px; color: #667eea;">
+                    🎵 试听播放器
+                </div>
+                <audio controls id="audioElement"></audio>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let selectedFile = null;
+
+        // Load SSML files on page load
+        async function loadFiles() {
+            try {
+                const response = await fetch('/api/files');
+                const files = await response.json();
+
+                const fileList = document.getElementById('fileList');
+                fileList.innerHTML = '';
+
+                if (files.length === 0) {
+                    fileList.innerHTML = '<div class="file-item" style="justify-content: center; color: #888;">暂无SSML文件</div>';
+                    return;
+                }
+
+                files.forEach(file => {
+                    const fileItem = document.createElement('div');
+                    fileItem.className = 'file-item';
+                    fileItem.innerHTML = `
+                        <div class="file-info">
+                            <div class="file-icon">📄</div>
+                            <div class="file-details">
+                                <div class="file-name">${file.name}</div>
+                                <div class="file-size">${file.size}</div>
+                            </div>
+                        </div>
+                    `;
+                    fileItem.onclick = () => selectFile(file, fileItem);
+                    fileList.appendChild(fileItem);
+                });
+            } catch (error) {
+                console.error('Error loading files:', error);
+                showStatus('加载文件列表失败: ' + error.message, 'error');
+            }
+        }
+
+        function selectFile(file, element) {
+            // Remove previous selection
+            document.querySelectorAll('.file-item').forEach(item => {
+                item.classList.remove('selected');
+            });
+
+            // Select current
+            element.classList.add('selected');
+            selectedFile = file;
+
+            // Enable buttons
+            document.getElementById('previewBtn').disabled = false;
+            document.getElementById('generateBtn').disabled = false;
+
+            showStatus('已选择: ' + file.name, 'info');
+        }
+
+        // Update slider value display
+        document.getElementById('overallSpeed').addEventListener('input', (e) => {
+            const value = parseFloat(e.target.value);
+            let label = `${value.toFixed(2)}x`;
+            if (value < 0.9) label += ' (较慢)';
+            else if (value > 1.1) label += ' (较快)';
+            else label += ' (正常)';
+            document.getElementById('speedValue').textContent = label;
+        });
+
+        // Update voice preview
+        document.getElementById('johnVoice').addEventListener('change', (e) => {
+            const option = e.target.options[e.target.selectedIndex];
+            document.getElementById('johnPreview').textContent = option.textContent;
+        });
+
+        document.getElementById('aliceVoice').addEventListener('change', (e) => {
+            const option = e.target.options[e.target.selectedIndex];
+            document.getElementById('alicePreview').textContent = option.textContent;
+        });
+
+        // Preview button handler
+        document.getElementById('previewBtn').addEventListener('click', async () => {
+            if (!selectedFile) return;
+
+            const btn = document.getElementById('previewBtn');
+            const originalText = btn.innerHTML;
+            btn.disabled = true;
+            btn.innerHTML = '<span class="loading-spinner"></span><span>生成中...</span>';
+
+            try {
+                const options = getOptions();
+                const response = await fetch('/api/preview', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        file: selectedFile.name,
+                        ...options
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(await response.text());
+                }
+
+                const blob = await response.blob();
+                const audioUrl = URL.createObjectURL(blob);
+
+                const audioPlayer = document.getElementById('audioPlayer');
+                const audioElement = document.getElementById('audioElement');
+                audioElement.src = audioUrl;
+                audioPlayer.classList.add('show');
+
+                showStatus('✅ 试听片段生成成功！请播放试听', 'success');
+            } catch (error) {
+                console.error('Preview error:', error);
+                showStatus('❌ 生成失败: ' + error.message, 'error');
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = originalText;
+            }
+        });
+
+        // Generate button handler
+        document.getElementById('generateBtn').addEventListener('click', async () => {
+            if (!selectedFile) return;
+
+            const btn = document.getElementById('generateBtn');
+            const originalText = btn.innerHTML;
+            btn.disabled = true;
+            btn.innerHTML = '<span class="loading-spinner"></span><span>生成中...</span>';
+
+            document.getElementById('previewBtn').disabled = true;
+
+            try {
+                const options = getOptions();
+                showStatus('🎵 正在生成完整音频，请稍候...', 'info');
+                showProgress(true);
+
+                const response = await fetch('/api/generate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        file: selectedFile.name,
+                        ...options
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(await response.text());
+                }
+
+                const result = await response.json();
+                showProgress(false);
+                showStatus(`✅ 生成成功！文件保存在: ${result.outputPath}`, 'success');
+
+                // Optionally play the generated audio
+                const audioPlayer = document.getElementById('audioPlayer');
+                const audioElement = document.getElementById('audioElement');
+                audioElement.src = '/audio-output/' + result.filename;
+                audioPlayer.classList.add('show');
+
+            } catch (error) {
+                console.error('Generate error:', error);
+                showStatus('❌ 生成失败: ' + error.message, 'error');
+                showProgress(false);
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = originalText;
+                document.getElementById('previewBtn').disabled = false;
+            }
+        });
+
+        function getOptions() {
+            return {
+                johnVoice: document.getElementById('johnVoice').value,
+                aliceVoice: document.getElementById('aliceVoice').value,
+                speed: parseFloat(document.getElementById('overallSpeed').value),
+                quality: document.getElementById('audioQuality').value
+            };
+        }
+
+        function showStatus(message, type) {
+            const status = document.getElementById('statusMessage');
+            status.textContent = message;
+            status.className = 'status show ' + type;
+        }
+
+        function showProgress(show) {
+            const progress = document.getElementById('progressBar');
+            const progressBar = document.getElementById('progressBarFill');
+
+            if (show) {
+                progress.classList.add('show');
+                let width = 0;
+                const interval = setInterval(() => {
+                    if (width >= 90) {
+                        clearInterval(interval);
+                    } else {
+                        width += 10;
+                        progressBar.style.width = width + '%';
+                    }
+                }, 500);
+            } else {
+                progressBar.style.width = '100%';
+                setTimeout(() => {
+                    progress.classList.remove('show');
+                    progressBar.style.width = '0%';
+                }, 500);
+            }
+        }
+
+        // Load files on page load
+        loadFiles();
+    </script>
+</body>
+</html>

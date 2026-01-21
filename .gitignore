@@ -1,0 +1,14 @@
+node_modules/
+uploads/*.wav
+uploads/*.mp3
+uploads/*.m4a
+uploads/*.flac
+.DS_Store
+.env
+npm-debug.log
+
+# 配置文件（包含敏感信息）
+config.js
+
+# 音频输出
+audio-output/

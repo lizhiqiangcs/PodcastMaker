@@ -1,0 +1,963 @@
+Speaker 2:
+EN: Welcome back to the deep dive today we are straping in in heading straight for the Fall line。Oh yeah，because we are diving deep and I mean really deep into the absolute mechanics of our bines kink we've got a massive stacks resources from you the listener and they detail not just would great skills do but the intricate physics behind why a ski even performs the way it does。
+CN: 欢迎回到今天的深入探讨，我们正准备直奔秋季线。哦，是的，因为我们正在深入研究，我的意思是真正深入了解我们的骨扭扭结的绝对机制，我们从听众那里得到了大量的资源，它们不仅详细说明了伟大的技能，而且还详细说明了滑雪板甚至能够发挥其作用的背后复杂的物理原理。
+
+Speaker 3:
+EN: That's right。if you ever been on a lesson and founders of asking，but wait，why does tipping my need and word make my ski turn？
+CN: 没错。如果你曾经上过课并询问过创始人，但是等等，为什么小费我的需求和话语会让我的滑雪转向？
+
+Speaker 2:
+EN: This is the deep dies you been waiting for。
+CN: 这就是你一直在等待的深死。
+
+Speaker 3:
+EN: I have absolutely been that person。
+CN: 我绝对就是那个人。
+
+Speaker 2:
+EN: We all have the source material we're working with today is well，essentially the blueprint of high performance movement on snow it's all about transforming，what feels like a complex physic seclation into into human korea's。
+CN: 我们今天所使用的源材料都很好，本质上是雪上高性能运动的蓝图，这一切都是为了转化，感觉就像是一种复杂的物理分离到人类韩国的。
+
+Speaker 3:
+EN: Like that，so we are mentioned today's to take those dense mechanical explanations you know，things like their relationship between the center of mass in the base of support or the difference between inclination and angelation and turn them into something with it。 Something you can feel on the mountain exactly we want you to feel the why the next time you hit the slops it gives you this immediate actionable technical vocabulary。
+CN: 像这样，所以我们今天提到的就是采取那些你知道的密集的机械解释，比如它们在支撑基础上的质心之间的关系或者倾斜和角度之间的差异，并将它们转化为一些东西。你可以在山上感受到的东西正是我们希望你感受到为什么下次你碰到斜坡时它会给你这些立即可操作的技术词汇。
+
+Speaker 2:
+EN: So you're not just miming in instructor you're understanding the course in the fact。
+CN: 所以你不只是模仿老师，你实际上是在理解课程。
+
+Speaker 3:
+EN: That's the goal and fundamentally you know achieveing that kind of skin mastery it really comes down to skillfully managing three call called skill concepts。 These concepts are the bedrock the pillars that support all performance and it doesn't matter if you making short AC，turnes or you know long beautiful arcstrepowder。
+CN: 这就是目标，从根本上来说，你知道要实现这种皮肤掌握，它实际上取决于熟练地管理三个称为技能概念的概念。这些概念是支持所有性能的基石和支柱，无论你制作短AC，转弯还是知道长美丽的arcstrepowder，都没关系。
+
+Speaker 2:
+EN: And those three pillars，which I think we should。dedicate this entire deep dive to are Lately about first it's pressure control that's all about managing the force is the snow is exerting back on you second rotational control，which is about where you skies are pointed and how fast they get there。
+CN: 这三个支柱，我认为我们应该。将整个深入研究奉献给最近的第一个是压力控制，这一切都是关于管理力，是雪施加在你的第二个旋转控制上，这是关于你的天空指向哪里以及它们到达那里的速度。
+
+Speaker 3:
+EN: Right the stiring。
+CN: 正确的搅拌。
+
+Speaker 2:
+EN: And third edging control，which is that？ That critical geometry of how you tip the skies onto their edge。taxly cut into the snow。
+CN: 第三个边缘控制，就是那个？如何将天空倾斜到其边缘的关键几何形状。小心地切入雪中。
+
+Speaker 3:
+EN: And to manage those three big concepts and to get with the source are coming ideal ski performance we rely on a very specific operational blueprint this blueprint is made up of what we call the five fundamentals。 These are the specific repeatable movements the actual actions you take with your body that connect those abstract skills to the physical world to the snow。
+CN: 为了管理这三个大概念并获得理想的滑雪性能，我们依赖于一个非常具体的操作蓝图，该蓝图由我们所说的五个基本原理组成。这些是具体的可重复动作，您用身体采取的实际动作，将这些抽象技能与物理世界和雪连接起来。
+
+Speaker 2:
+EN: Let's impact that blueprint immediately because that sounds like a lot of information to absorb right off the bed。so what are these five fundamentals that defined every single movement we make on skies。
+CN: 让我们立即影响该蓝图，因为这听起来需要立即吸收大量信息。那么定义我们在天空中所做的每一个动作的这五个基本原理是什么。
+
+Speaker 3:
+EN: They're very specific so No.1 controlling their relationship between your center of mass or CM and your base of support。the BOS that's your foreign F pressure。
+CN: 它们非常具体，所以 No.1 控制着你的质心或 CM 与你的支持基础之间的关系。BOS 就是你的外国 F 压力。
+
+Speaker 2:
+EN: Got it from to back？
+CN: 明白了吗？
+
+Speaker 3:
+EN: Second。 Directing pressure from one ski to the other and specificly making sure the vast majority of that false lands on your outside ski OK third precisely controlling the angle of your edges on the snow using two tools called inclination and angelation。
+CN: 第二。将压力从一个滑雪板引导到另一个滑雪板，并确保绝大多数错误着陆在外侧滑雪板上。第三，使用倾斜度和角度化两种工具精确控制雪上边缘的角度。
+
+Speaker 2:
+EN: We'll get in that distinction for sure。
+CN: 我们肯定会获得这种区别。
+
+Speaker 3:
+EN: Oh，we will false fundamental is stearing the skies using active late rotation and this is the key part separate from your upper body。
+CN: 哦，我们假的基本原理是通过主动后期旋转来驾驭天空，这是与上半身分开的关键部分。
+
+Speaker 2:
+EN: The classic mistake。
+CN: 经典错误。
+
+Speaker 3:
+EN: Exactly。and then finally，the fifth fundamental。 Regulating the magnitude of the forcees the share intensity of the pressure you create throughout the term。
+CN: 完全正确。最后，第五个基本原则。调节力量的大小以及你在整个学期中创造的压力的强度。
+
+Speaker 2:
+EN: Wow。so we just describe five incredible complex movements in what ten second，this sounds like a doctoral thesis we need detector。
+CN: 哇。所以我们只是在十秒钟内描述了五个令人难以置信的复杂动作，这听起来像是我们需要探测器的博士论文。
+
+Speaker 3:
+EN: Right now。
+CN: 现在。
+
+Speaker 2:
+EN: These five actions are the Foundation so let's start with The One that dictates the very existent of a turn pressure control。 This is the skill of managing that force the snow pushes back with because that push。that is what physically drives the arc of the turn。
+CN: 这五个动作是基础，所以让我们从决定转弯压力控制存在的那个开始。这是管理雪推回力的技能，因为该推力。这就是物理上驱动转弯弧线的力量。
+
+Speaker 3:
+EN: You've got it pressure control isn't just you know lean hiring there it's about anticipating and reacting to the share magnitude of the force。
+CN: 你已经明白了，压力控制不仅仅是你知道精益招聘，而是关于预测力量的份额大小并做出反应。
+
+Speaker 2:
+EN: Right，because when you're just standing still，the force is just your body way，right？that stead，it exactly。
+CN: 是的，因为当你只是站着不动时，力就只是你的身体方式，对吧？那个，就是这样。
+
+Speaker 3:
+EN: Yeah，but the moment you start bending that ski into a curve，a speciali at speed the snow pushes back with force that can and often do exceed twice your body weight twice so control。 The magnitude and just as importantly the distribution of that dynamic force that's the gateway to high performance skin。
+CN: 是的，但是当你开始将滑雪板弯曲成曲线时，雪会以特殊的速度向后推，其力量可以而且通常确实超过你体重的两倍，因此要控制。动态力的大小和同样重要的分布是高性能皮肤的门户。
+
+Speaker 2:
+EN: OK so let's focus first on that first fundamental the four F pressure game this relationship CM over BOS it's where your weight your center of mass is position relative to the links of your skin which is your basic of support the sound so academic but on the Hill it's the difference between caraving a beautiful smooth turn and。 Well，skating on controllablely。
+CN: 好吧，让我们首先关注第一个基本原理，四 F 压力游戏，这种关系 CM 与 BOS 之间的关系，它是你的体重、你的质心相对于你皮肤的连接的位置，这是你支撑的基础，声音如此学术，但在山上，它是雕刻一个美丽的平滑转弯和的区别。好吧，可控地滑行。
+
+Speaker 3:
+EN: It's absolutely crucial because minipulating that relationship is what controls how the ski flex is and ski flex is everything。
+CN: 这绝对是至关重要的，因为最小化这种关系是控制滑雪板弯曲程度的因素，而滑雪板弯曲度就是一切。
+
+Speaker 2:
+EN: Why so important？
+CN: 为什么这么重要？
+
+Speaker 3:
+EN: We'll think about the shape of a ski is got that our glass shape the side cut when a ski is properly flexed when it's pressure correctly along its in tirelank that side cut fully engages with the snow and that side cut is what dictates the clean predictable shape of your arc。
+CN: 我们会考虑滑雪板的形状，当滑雪板适当弯曲时，当它沿着其胎带正确施加压力时，我们的玻璃形状会形成侧切，侧切与雪完全接合，而侧切决定了弧线的干净可预测形状。
+
+Speaker 2:
+EN: So you're basically using the tool as was designed。
+CN: 所以你基本上是按照设计来使用该工具的。
+
+Speaker 3:
+EN: You are if you're the ski're right under your。 Food the whole structure works。but if your CM slips back even a little，you lose the tip，the ski flat and out the side cut disengages and the turning radius it effectively disappears。
+CN: 如果你的滑雪板就在你的正下方，那么你就是这样。食物整个结构都有效。但是如果你的 CM 向后滑动一点点，你就会失去尖端，滑雪板变平并脱离侧切，并且转弯半径实际上消失了。
+
+Speaker 2:
+EN: And that's a skid that。
+CN: 那就是打滑。
+
+Speaker 3:
+EN: Is a skid。
+CN: 是打滑。
+
+Speaker 2:
+EN: And I think a lot of intermeded skills myself，included for a long time。 Think of this is just leaning forward or leaning backward，but our source is are so specific this isn't a gross body movement。
+CN: 我自己认为很多中间技能，包括很长一段时间。认为这只是向前倾斜或向后倾斜，但我们的来源是如此具体，这不是一个粗略的身体运动。
+
+Speaker 3:
+EN: Not at all we're talking about process joint articulation micro adjustments there are three main adjustments here the ankle，the knee and the hip。okay？
+CN: 我们不是在谈论过程关节关节的微调，这里主要调整三个脚踝，膝盖和臀部。好吗？
+
+Speaker 2:
+EN: Let's break in down let's start with The One closer to the snow the。
+CN: 让我们从距离雪更近的那个开始吧。
+
+Speaker 3:
+EN: Ankle the ankle is your fine tuner it's the joint closes to the ski so it's your most subtle and process lever。 When you increase your anklefaction when you gently，push your shines in the front of your boot town。your CM moves forward relative to your feet。
+CN: 脚踝 脚踝是你的微调器，它是靠近滑雪板的关节，所以它是你最微妙和最过程的杠杆。当你轻轻地增加你的脚踝力时，将你的靴子推到你的靴子前面。你的CM相对于你的脚向前移动。
+
+Speaker 2:
+EN: And the pressure goes to the shuffle of the skin。
+CN: 并且压力会影响皮肤的洗牌。
+
+Speaker 3:
+EN: Instantly Conversely if you reduce that anklefaction，you know straightening ankle little the pressure Suddenly moves back to or the tail。this is your primary tool for micro managing，the engagement of the skin tip。
+CN: 立即相反，如果你减少脚踝部分，你知道伸直脚踝的压力会突然移回或尾部。这是你进行微观管理的主要工具，皮肤尖端的接合。
+
+Speaker 2:
+EN: So if you looking for just a quick sharp book into the very beginning of a turn。 A fraction of an inch of anchor flection can make all the difference。
+CN: 因此，如果您只是在转弯开始时寻找一本快速敏锐的书。锚定弯曲的一小部分就可以产生巨大的差异。
+
+Speaker 3:
+EN: That's it。
+CN: 就是这样。
+
+Speaker 2:
+EN: OK，so what about the next joined up the knee？how does that interact with the anchor？
+CN: 好的，那么下一个连接到膝盖上的呢？它是如何与锚点交互的？
+
+Speaker 3:
+EN: The knee is it's an interesting one because it works in a way inversely to the anchor's influence on your CM。
+CN: 膝盖是一个有趣的东西，因为它的作用方式与锚点对你的 CM 的影响相反。
+
+Speaker 2:
+EN: What do you mean inversely？
+CN: 你说的相反是什么意思？
+
+Speaker 3:
+EN: When you Benjamin when you increase neifaction your center of manners actually drops down and back relative to the skin。 So pressure shifts after the tale。
+CN: 当你本杰明增加neifaction时，你的举止中心实际上相对于皮肤下降并向后移动。所以压力在故事结束后转移。
+
+Speaker 2:
+EN: Wait，hold on。so a beginner trying to get forward pressure someone just tell them benjanies are actually sending their weight backward。
+CN: 等等，等等。所以一个初学者试图获得向前的压力，有人只是告诉他们本杰尼实际上是在向后发送他们的重量。
+
+Speaker 3:
+EN: That's the paradox if a scare tries to get forward just by bending learning is deeply without a corresponding ankle flex and a forward hepenge they end up sitting back。
+CN: 这就是一个悖论，如果一个恐惧试图仅仅通过弯曲学习来前进，那么如果没有相应的脚踝弯曲和向前的伸展，他们最终会坐在后面。
+
+Speaker 2:
+EN: In the backseat。
+CN: 在后座。
+
+Speaker 3:
+EN: Every time now，if you extend the knee pushing upward and slately forward。 The pressure ships，forward see，you can think of the knee as the main controller for the dynamic release and engagement of the tail session，especially during the turn transition。
+CN: 现在每次，如果你伸展膝盖向上推动并缓慢向前。压力船，向前看，你可以将膝盖视为尾部动态释放和接合的主要控制器，特别是在转弯过渡期间。
+
+Speaker 2:
+EN: This is why just saying bend your needs is Maybe the worth to advice in skin if it is not。
+CN: 这就是为什么仅仅说弯曲你的需求是也许值得在皮肤上提出建议，如果不是的话。
+
+Speaker 3:
+EN: Qualified it's one of the most misunderstood cues for sure which of course leads us to the hip。the hip is the big engine that that's your overall stans the hip。
+CN: 合格这是最容易被误解的线索之一，这当然会把我们引向臀部。臀部是你的整体支撑臀部的大引擎。
+
+Speaker 2:
+EN: Trying to like a powerful henge，then it dicted to the overall Lin of your torso。
+CN: 试图喜欢一个强大的巨石，那么它就决定了你躯干的整体林。
+
+Speaker 3:
+EN: Correct。 When you hinge forward at the hips and we're talking about a movement like taking a slay controlled Bo keeping a flat back you move your CM significantly forward over the linked of the ski。
+CN: 正确。当你的臀部向前转动时，我们谈论的是一个像采取杀戮控制的 Bo 保持平坦背部的动作，你将你的 CM 显着向前移动到滑雪板的链接上。
+
+Speaker 2:
+EN: Driving major pressure onto the。
+CN: 推动主要压力。
+
+Speaker 3:
+EN: Tip，right？if you extended the hip，what people off to call standing up。you move your CM back toward，the center，or even the tail。this extension is absolutely essential for managing。the pressure release of the end of the turn it allows the ski to flat now and transition smoothly into the next one。
+CN: 提示，对吗？如果你伸展臀部，人们称之为站立。你将你的CM向后移向中心，甚至尾部。这种伸展对于控制来说绝对是必要的。转弯结束时的压力释放可以让滑雪板现在放平并顺利过渡到下一个。
+
+Speaker 2:
+EN: OK so I'm trying to visualize this whole three joint system I'm seeing the ankle as the fine tuner for the tip，the hip is the primary position setter like the master switch for your overall stance。
+CN: 好的，所以我正在尝试形象化整个三关节系统，我将脚踝视为尖端的微调器，臀部是主要的位置设定器，就像整体姿势的主开关一样。
+
+Speaker 3:
+EN: Yeah。the big lever。
+CN: 是啊。大杠杆。
+
+Speaker 2:
+EN: And the knee is the dynamic controller for of absorbing and releaseing pressure throughout the arcade self they had to be perfectly Corey graph。
+CN: 膝盖是整个街机中吸收和释放压力的动态控制器，它们必须是完美的 Corey 图。
+
+Speaker 3:
+EN: They absolutely must。and if we used that great knowledge from the source material。imagine your ski is a seesaw。 OK，your boot is the Falcon point，right in the middle。if you move your CM forward through that ankle flex or he pinge you are loading the front end of the seasa you're insuring the tip，presses down hard。
+CN: 他们绝对必须。如果我们使用源材料中的丰富知识。想象你的滑雪板是一个跷跷板。好吧，你的靴子是猎鹰点，就在中间。如果你通过脚踝弯曲向前移动你的CM，或者他平脚，你正在加载海的前端，你要确保尖端，用力下压。
+
+Speaker 2:
+EN: Which starss turn。
+CN: 哪颗星转。
+
+Speaker 3:
+EN: And if you let the CM slip off even just by letting your needs bent too much without that for he pinge you're pressing the tail the seasa down。
+CN: 如果你让 CM 滑落，即使只是让你的需求弯曲太多，而没有他的 pinge，你就会把海莎的尾巴压下去。
+
+Speaker 2:
+EN: And losing the FRA？
+CN: 还失去了法兰克福机场？
+
+Speaker 3:
+EN: And you lose the turn，the goal isn't just to Keep the whole linked engaged it's to constantly find to in where that you know that one hundred percent pressure point seats shifting it's Suddenly forward to start the turn and then letting it move a little rare word to release the tale near the。
+CN: 当你失去转弯时，目标不仅仅是保持整个链接的参与，而是不断地找到你知道的百分百压力点座位移动它突然向前开始转弯，然后让它移动一点罕见的词来释放附近的故事。
+
+Speaker 2:
+EN: Finish and let's talk about consequences。what happens if we fail this little corrographic test if a skill let's their CM drift too far back。
+CN: 结束了，让我们谈谈后果。如果我们通过这个小小的腐蚀测试，如果一项技能让他们的 CM 漂移得太远，会发生什么。
+
+Speaker 3:
+EN: Well，the immediate consequence is your effectively reducing the working radius of your skill。 Because the whole front section the shiver is no longer engaging with the snow it's。
+CN: 好吧，直接的后果是你有效地减少了你的技能的工作半径。因为整个前部的颤抖不再与雪接触。
+
+Speaker 2:
+EN: Just flapping in the wind。
+CN: 只是在风中飘扬。
+
+Speaker 3:
+EN: Pretty much so the tale section gets overloaded the skier often feels it're Suddenly excelerating out of control and they compensated by what do they do？they third the ski sideways。
+CN: 几乎因此故事部分变得超载，滑雪者经常感觉突然失控，他们通过做什么来弥补？他们将滑雪板向侧面倾斜。
+
+Speaker 2:
+EN: They panic and skate to a stop。
+CN: 他们惊慌失措并滑行至停止。
+
+Speaker 3:
+EN: Exactly that resulted in a huge skid excessive drag and a total loss of directional stability。 That classic back seat feeling isn't just uncomparable it's a total break down of the first fundamental。
+CN: 正是这导致了巨大的打滑、过度的阻力和方向稳定性的完全丧失。那种经典的后座感觉不仅是无与伦比的，而且完全破坏了第一个基本原理。
+
+Speaker 2:
+EN: OK，let's move this from the lab onto the snow we have another skier they're just transitioning out of the snow plow and they're really struggling to start their turn smoothly，they often skid right away。
+CN: 好吧，让我们把这个从实验室转移到雪上，我们有另一个滑雪者，他们刚刚从扫雪机上过渡出来，他们真的很难顺利地开始转弯，他们经常会立即打滑。
+
+Speaker 3:
+EN: A classic sign that they're after center they're not engaging the tip。
+CN: 这是一个典型的迹象，表明他们在追击中锋，但没有接触到尖端。
+
+Speaker 2:
+EN: So in instructors priority here is to get them to feel that subtle forward pressure engage that boot on pressure。 But without having them do some exaggerated uncomparable forward Lin。
+CN: 所以教练的首要任务是让他们感受到那种微妙的向前压力，让靴子踩在压力上。但又不让他们做一些夸张的无与伦比的向前林。
+
+Speaker 3:
+EN: That's the trick it's about teaching unsolation of movement。
+CN: 这就是教授运动的非孤立性的技巧。
+
+Speaker 2:
+EN: And that sounds really challenging。how do you make sure that when they focus on their ankle they are also，you know？ Unintentionally straightening their knee or collapseing at the hip。
+CN: 这听起来确实很有挑战性。你如何确保当他们把注意力集中在脚踝上时，他们也是，你知道吗？无意中伸直膝盖或臀部塌陷。
+
+Speaker 3:
+EN: That's the core challenge of isolation drews right？we have to break the cordinated movement down into its individual parts first，so the instruction probably start static Maybe just standing still across the slope and you ask the skill to focus only on their ankles，you say just push your shins gently into the fun of your boots。feel the change intention in the plastic don't move your needs or your hips。 They have to recognize that feeling of the weight shifting to the front of the food。
+CN: 这就是隔离的核心挑战，对吗？我们必须首先将协调的运动分解成各个部分，所以指令可能会从静态开始。也许只是站在斜坡上一动不动，你要求技能只关注他们的脚踝，你说只要轻轻地将你的小腿推入靴子的乐趣。感受塑料中的变化意图，不要移动你的需求或你的臀部。他们必须认识到重量转移到食物前面的感觉。
+
+Speaker 2:
+EN: And then you do the opposite。
+CN: 然后你做相反的事情。
+
+Speaker 3:
+EN: Then you switch maintain that ankle flex，but now only benjar needs a tiny bit and feel that suttle Conner shift backward let them feel how one joints movement can counter act another。
+CN: 然后你切换保持脚踝弯曲，但现在只有本贾尔需要一点点，感觉康纳向后移动让他们感觉到一个关节的运动如何抵消另一个关节的运动。
+
+Speaker 2:
+EN: So the goal is for them to realize that a one sentimenter ankle movement has his profound influence on the ski tip whereas a big clumsy heapenge is really only only necessary for，you know。 Major touring changes or supergrassive terms。
+CN: 所以我们的目标是让他们认识到，一个感性的脚踝运动对滑雪尖端有深远的影响，而一个大笨拙的heapenge实际上只需要，你知道。主要的巡回演出或超级草术语。
+
+Speaker 3:
+EN: Exactly once they can isolate that anchor movement the primary level for tip engagement we introduce dynamically on a very，very gentle slope the Q becomes begin at turn by leading with your shame。
+CN: 一旦他们能够隔离锚定运动，即尖端接合的主要水平，我们就会在一个非常非常平缓的斜坡上动态引入，Q 就会通过你的耻辱开始转弯。
+
+Speaker 2:
+EN: Just the shame。
+CN: 只是耻辱。
+
+Speaker 3:
+EN: If the skill realizes，they can use their anchor for that fine tuning。they stop trying to use huge ine的hip and upper body movements from micro adjustments and that right there is the homark of transitioning from a beginner to an intermedia。 The ankle is the brain of the four F system the rest of the body just Fall as it's lead OK now let's simulate a really common point of confusion and it's related to that hip extension you need to exit a turn。
+CN: 如果技能实现了，他们可以使用他们的锚点进行微调。他们不再尝试通过微调来使用巨大的臀部和上半身运动，这就是从初学者过渡到中间人的标志。脚踝是四个F系统的大脑，身体的其余部分只是下降，因为它是领先的。现在让我们模拟一个真正常见的困惑点，它与退出转弯时需要的髋部伸展有关。
+
+Speaker 2:
+EN: OK，I think I know where this is going。the student nasks，I feel like I'm leaning too far back when I tried to Stand up with my hips and then my skies just get out of control。I get pitched into the back seat。
+CN: 好吧，我想我知道这是怎么回事了。学生纳闷了，当我试图用臀部站起来时，我感觉自己向后倾斜得太远了，然后我的天空就失去了控制。我被推到了后座上。
+
+Speaker 3:
+EN: Yeah。that's The One。
+CN: 是的。那就是 The One。
+
+Speaker 2:
+EN: And this is a Perfect example of confucing a bio mechanical instruction extend the hip。 With the gross body movement，which is lean backward。the goal is to clarify that hip extension is about controlling pressure release not not initiating a Fall。
+CN: 这是一个混淆生物力学指令伸展髋部的完美例子。随着粗体身体运动，即向后倾斜。目标是澄清髋部伸展是为了控制压力释放而不是不引发跌倒。
+
+Speaker 3:
+EN: This misunderstanding comes entirely from the language of Stand up when we has instructors talk about extending at the help to finish the turn or transition we're talking about a really precise minimal control movement's。
+CN: 这种误解完全来自站立的语言，当我们让教练谈论伸展以完成转弯或过渡时，我们谈论的是真正精确的最小控制动作。
+
+Speaker 2:
+EN: Not like getting about of a。
+CN: 不像是四处走动。
+
+Speaker 3:
+EN: Chair，not at all。it used to release pressure from the four body of the ski and let the tail flatten。 This less the same to move Suddenly after，but only for a moment to set up the next term。it should never break your athletic expense。
+CN: 椅子，一点也不。它用来释放滑雪板四个主体的压力，让尾部变平。这与突然移动后的情况不太一样，但只是为了下一学期的准备。它永远不会破坏你的运动费用。
+
+Speaker 2:
+EN: So how do we fix the image in their head because they are clearly visualize themselves falling backward down the mountain。
+CN: 那么我们如何修复他们头脑中的形象，因为他们清楚地想象自己向后倒下山。
+
+Speaker 3:
+EN: We have to counter that exaggerate the visual with The One of controlled precision，so you tell a listener，I imagine your standing up to gently pop a very small balloon that's please just by your Hills right inside the base of your boots。
+CN: 我们必须用控制精度来对抗这种夸张的视觉效果，所以你告诉一位听众，我想象你站起来轻轻地弹出一个非常小的气球，它就在你的山丘旁边，就在你的靴子底部。
+
+Speaker 2:
+EN: Oh，it's good it's a tiny movement。
+CN: 哦，这很好，这是一个微小的动作。
+
+Speaker 3:
+EN: It's tiny it's process it's centered within your base of support and it's immediate your extending just enough to create that momentary pressure release at the tail，which helps flatten a ski and allowance for efficient rotational movement into the next dark。
+CN: 它很小，它的过程集中在你的支撑基础上，它可以立即伸展，足以在尾部产生瞬时压力释放，这有助于压平滑雪板并允许在下一个黑暗中进行有效的旋转运动。
+
+Speaker 2:
+EN: And the direction of the movement is key。
+CN: 而运动的方向是关键。
+
+Speaker 3:
+EN: Critically the movement is directed up toward the Sky not back toward the mountain this insurance the ghost days about controlling the flow of pressure maintaining that sees all balance。 And avoiding me sudden disruptive wait transfers that just dare the entire system。
+CN: 重要的是，运动是指向天空而不是返回山，这样可以保证控制压力流的鬼魂日子保持所有平衡。并避免我突然破坏性的等待转移，这只是敢于整个系统。
+
+Speaker 2:
+EN: OK so we've moving on from lanks wise four after pressure now we've got a tackle lateral pressure control as the second fund metal。 Getting the right，weight on the right ski。
+CN: 好的，我们已经从横向四压力后继续前进，现在我们有了一个铲子横向压力控制作为第二基金金属。获得正确的，重量在正确的滑雪板上。
+
+Speaker 3:
+EN: And the fifth fundamental，which is managing the overall intensity of that weight。
+CN: 第五个基本原则是管理该重量的整体强度。
+
+Speaker 2:
+EN: Right。this is where skiing really separate itself from say walking this is about managing enormous siculical lot of forces。
+CN: 是的。这就是滑雪与步行的真正区别，步行是要管理巨大的力量。
+
+Speaker 3:
+EN: It is in any balance。dynamic term were fighting centrifical force it's constantly trying to post street down the hell away from the center of the Ark were trying to make。
+CN: 它处于任何平衡状态。动态术语正在与离心力作斗争，它不断地试图将街道推向远离方舟中心的地狱。
+
+Speaker 2:
+EN: And to counter that。 You have to shift your way。
+CN: 为了应对这一点。你必须改变你的方式。
+
+Speaker 3:
+EN: You have to shift your center of mask nifinly to the inside of the term。and that action is what generates massive GE force is。so the mechanics of it demand that the vast majority of that resulting force for talking up to eighte percent or more has to be chaneled onto the outside ski of the term。
+CN: 你必须将你的面具中心巧妙地转移到术语的内部。而这个作用就是产生巨大的 GE 力的原因。所以它的力学要求，百分之八十或更多的所产生的力的绝大多数必须被引导到术语的外部滑雪板上。
+
+Speaker 2:
+EN: So the outside ski is the power generator。
+CN: 所以外面的滑雪板就是发电机。
+
+Speaker 3:
+EN: It's The One creating the curve it's doing all the work。
+CN: 它是创造曲线的人，它正在做所有的工作。
+
+Speaker 2:
+EN: So we've got GE force is one way gravity point as another。 And we have to precisely minuver our CM to hardness，all these forces on The One single ski。this sounds like an aerospace problem。
+CN: 所以我们得到了GE力是一种重力点作为另一种重力点。而且我们必须精确地将我们的CM调至硬度，所有这些力都作用在The One单板滑雪板上。这听起来像是一个航空航天问题。
+
+Speaker 3:
+EN: It kind of is。
+CN: 有点像。
+
+Speaker 2:
+EN: So how do we actually execute the shift mechanically with their bodies？
+CN: 那么我们如何实际地用他们的身体机械地执行转变呢？
+
+Speaker 3:
+EN: We use two court nated movement patterns。and they have to happen at the same time。the first pattern is all in the lower body and it's focused on differential leg flaction。
+CN: 我们使用两种法庭指定的运动模式。它们必须同时发生。第一种模式全部在下半身，重点是腿部的差异性屈曲。
+
+Speaker 2:
+EN: Meeting one leg bends more than the。
+CN: 见面一腿弯曲不止。
+
+Speaker 3:
+EN: Other exactly。 To effectively push pressure onto the outside ski the inside leg has get shorter than the outside leg。this means the knee and the hip of the inside leg have to flex deeper。
+CN: 其他完全一样。为了有效地将压力施加到外侧滑雪板上，内侧腿比外侧腿短。这意味着内侧腿的膝盖和臀部必须弯曲得更深。
+
+Speaker 2:
+EN: You're kind of falling it up in our knee。you。
+CN: 你有点把它摔倒在我们的膝盖上。你。
+
+Speaker 3:
+EN: You are you're deliberately absorbing or falling that inside legs your weight is naturally supported and directed onto the straighter Stronger outside legs。
+CN: 你故意吸收或落下内侧腿，你的体重自然受到支撑并引导到更直更强壮的外侧腿上。
+
+Speaker 2:
+EN: That seems almost counter and two to balance，you know，making one Lake shorter than the other，but I guess it's necessary get the skies to tip on edge。
+CN: 这看起来几乎是相反的，两个平衡，你知道，使一个湖比另一个湖短，但我想有必要让天空倾斜。
+
+Speaker 3:
+EN: It is entirely necessary and here's the critical detail。our source is really emphasize while the needs and hips are flexing differently one more than the other the ankles have to maintain equal flexion relative to the boots。
+CN: 这是完全必要的，这是关键的细节。我们的消息来源确实强调，虽然需要和臀部的弯曲程度不同，但脚踝必须相对于靴子保持相同的弯曲程度。
+
+Speaker 2:
+EN: Okay，so the shines stay at the same angle against the bootton。
+CN: 好的，所以闪光与靴子保持相同的角度。
+
+Speaker 3:
+EN: They have do if your angle start flexing differently we immediately compromise that four after balance。we just spend so much time stability。 Which an enforcees the skill into these desperate recovery movements equal ancoflex maintains that stable CMBOS relationship blinked wise while the needs and hips are busy managing the letter weight distribution。
+CN: 如果你的角度开始以不同的方式弯曲，我们会立即妥协这四个平衡后。我们只是花了这么多时间保持稳定。这将技能强制落实到这些绝望的恢复动作中，相当于 ancoflex 维持稳定的 CMBOS 关系，而需求和臀部正忙于管理字母重量分布。
+
+Speaker 2:
+EN: OK they're，make sense now for the second pattern，which involves the Uber body in the pelvis。this is the crucial almond of resistance of。
+CN: 好的，现在明白第二种模式了，它涉及骨盆中的尤伯体。这是抵抗力的关键杏仁。
+
+Speaker 3:
+EN: This is the high performance of们yeah，the Uber body your torso and pelvis has to face to the outside ski。 This is often called counter movement or angulation of the toursl so。
+CN: 这就是我们的高性能，你的躯干和骨盆必须面向外侧滑雪。这通常被称为反向运动或旋转角度。
+
+Speaker 2:
+EN: Is your legs or tipping into the turn？
+CN: 你的腿是否正在转弯？
+
+Speaker 3:
+EN: Your upper body is resisting it's providing a counter balance if you're torso just followed your legs and lean into the turn your whole center of mass would Fall too far inside and you lose pressure on that。all important outside ski you just collapse。
+CN: 你的上半身正在抵抗，它提供了一种平衡，如果你的躯干只是跟随你的腿并倾斜到转弯，你的整个重心会落得太远，你就会失去压力。所有重要的户外滑雪你都会崩溃。
+
+Speaker 2:
+EN: So by tilting toward the outside ski you're keeping your weight over it。
+CN: 因此，通过向外侧滑雪板倾斜，您可以将体重保持在其上。
+
+Speaker 3:
+EN: You're，actively aligning your center of math with what's called the resoltant force factor。 'S the combine the fact of gravity and centrifical force and that alignment is what allow the outside ski to accept and manage the enormous pressure of the term。
+CN: 你正在积极地将你的数学中心与所谓的抵抗力因子对齐。它是重力和离心力的结合，这种对齐使得外部滑雪板能够接受和管理该术语的巨大压力。
+
+Speaker 2:
+EN: I absolutely love the anology here this complex movement lower body tipping again upper body providing outward resistance it's exactly like a fighterjet banking into a high G turn。
+CN: 我非常喜欢这里的类比，这个复杂的运动下半身再次倾斜上半身提供向外的阻力，就像一架战斗机进入高 G 转弯。
+
+Speaker 3:
+EN: It's the Perfect。 The wings in the piece of that's your legs and skies they tip radically onto edge to create the turning geometry，but the pilot your uprobodian head has to stay oriented or Sometimes even slately counter tailed relative to the horizon and the force is involved your。
+CN: 这是完美的。那是你的腿和天空的部分，它们从根本上倾斜到边缘以创建转动的几何形状，但飞行员你的乌普罗博迪头部必须保持定向，有时甚至相对于地平线反向倾斜，并且力涉及你的。
+
+Speaker 2:
+EN: Torso is the stable controlling。
+CN: 躯干是稳定的控制。
+
+Speaker 3:
+EN: Unit it is it's maintaining balance and forward vision。while your legs are the dynamic tipping wings underneath just generating the Ark without that counter movement，the turn just falls apart。
+CN: 它是保持平衡和向前视野的单位。虽然你的腿是下面动态倾斜的翅膀，只是在没有反向运动的情况下生成方舟，但转弯就会崩溃。
+
+Speaker 2:
+EN: OK，so that covers where the pressure goes，but now we have to tackle the fifth fundamental regulating the magnitude of the pressure this is about managing the intentity of the force that's generated by that ski snow and direction。
+CN: 好的，这涵盖了压力的去向，但现在我们必须解决第五个基本问题，即调节压力的大小，这是关于管理滑雪雪和方向产生的力的强度。
+
+Speaker 3:
+EN: Right，the skies are constantly，creating force and we have to manage to maintain our speed and control。this is the skill of resisting and actively absorbing those forces that specificly the force is that pushing up through the ski halfway through the Ark。
+CN: 是的，天空在不断地产生力量，我们必须设法保持速度和控制力。这就是抵抗和主动吸收那些力量的技巧，具体来说就是通过方舟中途的滑雪板向上推的力量。
+
+Speaker 2:
+EN: And if you just different up and resist that force completely。
+CN: 而如果你只是与众不同并完全抵抗那股力量。
+
+Speaker 3:
+EN: The force kicks you it thorzion to the Era of balance。but if you just collapse and of the over too much you scrub all your speed and you store the turn。
+CN: 力量将你踢向平衡时代。但如果你只是崩溃并且过度，你就会擦掉你所有的速度并储存转弯。
+
+Speaker 2:
+EN: And the trampling principle is the Perfect visualization for this。
+CN: 而践踏原理就是对此的完美观想。
+
+Speaker 3:
+EN: It really is imagine you're standing on a trampoline bouncing softly but you're explicitly trying not to jumpy right？
+CN: 这真的是想象一下你站在蹦床上轻轻弹跳，但你明确地试图不跳，对吗？
+
+Speaker 2:
+EN: Just maintaining contact。
+CN: 只是保持联系而已。
+
+Speaker 3:
+EN: To get that controlled continue as movement。 You have to precisely time when you bend your flaction and when you straighten your extension you're constantly modulating the interaction between your body way and that rebounding Surface。
+CN: 为了让运动继续受控。你必须精确地控制何时弯曲你的弯曲以及当你伸直你的伸展时，你不断地调节你的身体方式和反弹表面之间的相互作用。
+
+Speaker 2:
+EN: So on skies that kinetic management is done through the constant，siculical flexing，an extending of the needs，the hips and even a little bit in the spine it's our suspension system。
+CN: 因此，在天空中，动力管理是通过持续的、身体的弯曲、需求的延伸来完成的，臀部，甚至一点点脊柱，这就是我们的悬挂系统。
+
+Speaker 3:
+EN: It is the ultimate suspension system。 This dynamic movement allows the skill to manage the build up of pressure actively flexing and absorbing as the force is peak near the Fall line and then managing the decrease of pressure by extending slatly to maintain contact or prepare for the rotational change into the next turn。
+CN: 这是终极的悬挂系统。这种动态运动允许技能在坠落线附近达到峰值时主动弯曲和吸收压力，然后通过板条延伸来控制压力的减小以保持接触或为下一个转弯的旋转变化做好准备。
+
+Speaker 2:
+EN: And the Timing here seems like it's everything if the skill extends too early in the turn before those force is really peak。
+CN: 如果在那些力量真正达到峰值之前技能在回合中过早地延伸，那么这里的时机似乎就是一切。
+
+Speaker 3:
+EN: They're factually pushing off the snow。 They accelerate vertically often lose contact with the snow and that leads to major instability。
+CN: 它们实际上是在推开雪。它们垂直加速时经常会与雪失去接触，从而导致严重的不稳定。
+
+Speaker 2:
+EN: I see that all the time。
+CN: 我一直都看到这一点。
+
+Speaker 3:
+EN: Absolutely and Conversely if they absorb the pressure to late while they basically allow the force to dictate their movement and they've lost control for novices it's so important to emphasize that it slow spits and on gentle slopes the changes and magnitude are really slip。
+CN: 绝对是的，相反，如果他们吸收压力的时间太晚，而他们基本上让力量决定他们的运动，并且他们已经失去了对新手的控制，那么强调它会减慢吐水速度，在平缓的斜坡上，变化和幅度确实会打滑。
+
+Speaker 2:
+EN: So no big up and down movements。
+CN: 所以没有大的上下动作。
+
+Speaker 3:
+EN: Exactly exaggerated up and down movements are totally count of productive。 The force management needed is subtle just focusing on keeping the skies glue to the snow through constant minimal flection and extension our look。
+CN: 精确夸张的上下运动完全是富有成效的。所需的力管理是微妙的，只需专注于通过不断的最小弯曲和延伸我们的外观来保持天空粘在雪上即可。
+
+Speaker 2:
+EN: Apply both of these concepts for lot of distribution in the force magnitude to an Inter media skier this person is now confidently hating medium Blue runs but they're getting bounced around by the more aggressive forces。 They look fast，but they look on stable。
+CN: 将这两个概念应用于国米媒体滑雪者的力量大小的大量分布，这个人现在自信地讨厌中蓝色跑步，但他们被更具侵略性的力量弹跳。他们看起来很快，但他们看起来很稳定。
+
+Speaker 3:
+EN: Yeah，this is a common Plato the skier probably has adequate inclination in their lining in but they have poor absorption they're getting kicked around because they're meeting that incoming force with difference they're essential locking their shock absorbers。
+CN: 是的，这是一个常见的柏拉图，滑雪者可能在他们的衬里有足够的倾斜度，但他们的吸收能力很差，他们被踢来踢去，因为他们遇到了不同的传入力，他们必须锁定他们的减震器。
+
+Speaker 2:
+EN: To the instructional focus has to be on Timing the compression。
+CN: 教学重点必须放在压缩的时机上。
+
+Speaker 3:
+EN: Right，Timing it for when the force are at their absolute maximum，which is typically，right as the skills cross the follow。
+CN: 对了，时机选择在力量达到绝对最大值的时候，通常就是技能交叉跟随的时候。
+
+Speaker 2:
+EN: Line，so we need to teach them to consciously compress the turn。
+CN: 线，所以我们需要教他们有意识地压缩转弯。
+
+Speaker 3:
+EN: That's the Q。 And the most effective physical way to teach this is to have them。consciously flexed their needs and hips into that compressions on tell the scare to imagine that they're shortening their body compressing in their core to smoothly fit into a lotono just at that moment of peak pressure。
+CN: 这就是问题。教授这一点的最有效的物理方法就是让他们有意识地将他们的需要和臀部弯曲到压缩中，告诉恐惧者想象他们正在缩短他们的身体，压缩他们的核心，以便在压力峰值的那一刻顺利地融入到 Lotono 中。
+
+Speaker 2:
+EN: And then extend out of。
+CN: 然后延伸出去。
+
+Speaker 3:
+EN: It then they begin to extending smoothly again as they exit。the tunnel and the turn begins to finish this absorption let the skill manage that peak force by letting their powerful legmathals take the heat。 Rather than transferring that massive force directly up into their static core，which is what through the of balance。
+CN: 然后他们在退出时再次开始平稳延伸。隧道和转弯开始完成这种吸收，让技能通过让他们强大的腿吸收热量来管理峰值力量。而不是将巨大的力量直接转移到他们的静态核心，这就是通过平衡。
+
+Speaker 2:
+EN: So it's an active precise movement denied to these kids it's not a passive collapse。
+CN: 所以这是这些孩子拒绝的主动精确运动，而不是被动崩溃。
+
+Speaker 3:
+EN: Not at all，and I remember，you know，struggling with this idea for years，I felt like compressing men。I was slowing down me too。
+CN: 一点也不，我记得，你知道，多年来我一直在与这个想法作斗争，我感觉像是在压缩男人。我也减慢了我的速度。
+
+Speaker 2:
+EN: Yeah，but it's actually opposite isn't it it lets you maintain your speed through the strongest part of the turn because you're providing that sudden loss of contact balance。
+CN: 是的，但它实际上是相反的，不是它让你在转弯的最强部分保持速度，因为你突然失去了接触平衡。
+
+Speaker 3:
+EN: That's the key inside。 Managed compression alouse for higher speeds because it maintains control the difference between a controlled Ark and a kotic turn often just comes down to that few millo second of perfectly time to compression OK here's a false management question we hear all the time from skills who feel overwhelmed when the turning get steeper all。
+CN: 这就是里面的关键。 受控压缩需要更高的速度，因为它可以保持控制，受控的方舟和科特克转弯之间的差异通常只是压缩到几毫秒的完美压缩时间。好吧，这是我们经常从技术人员那里听到的一个错误的管理问题，当转弯变得更陡时，他们会感到不知所措。
+
+Speaker 2:
+EN: Right let's hear it this still nasks I keep getting through on off balance near the bot of my turn specialty on the steeper part where I pick up speed。I feel like the ski is fighting me。 I just try to lean harder，all the。
+CN: 好吧，让我们听听吧，这仍然是个问题，在我加快速度的陡峭部分，我一直在靠近我的转弯专业机器人附近失去平衡。我感觉滑雪板正在与我战斗。我只是尝试更努力地倾斜，所有。
+
+Speaker 3:
+EN: Lean harder instinct the。
+CN: 本能地精益求精。
+
+Speaker 2:
+EN: Instinct is to address the problem with more inclination but the real issue is vertical force management leaning harder only addresses your lotter or balance it won't do anything to absorb the vertical kick back that's created by the ski flexing so aggressively。
+CN: 本能是用更大的倾斜度来解决问题，但真正的问题是垂直力管理，更用力地倾斜只能解决你的抽签或平衡问题，它不会做任何事情来吸收滑雪板过度弯曲所产生的垂直反冲。
+
+Speaker 3:
+EN: We have to correct that impulse and refocus on the dynamic movement of blags as the primary force manager。 And the best metaphor for this is to think of high performance shock，absorbers on a mountain bike OK when you hit a big bump and peak pressure on a steep turn is absolutely a big bump you'T stiffen up and lock your needs。if you did the force would rebound，sharkly and what either through you over the hand of bars or make you skip out？
+CN: 我们必须纠正这种冲动，并重新关注作为主要力管理器的动态运动。对此最好的比喻是考虑高性能减震器，山地自行车上的减震器，当您遇到大颠簸时，在陡峭转弯时的峰值压力绝对是一个大颠簸，您不会僵硬并锁定您的需求。如果您这样做，力会急剧反弹，什么会穿过您越过杠铃或让您跳出？
+
+Speaker 2:
+EN: Right instead。 And expert mountain biker actively let's the shock absorbers compress great and then rebound smoothly they're absorbing the energy。
+CN: 是的。而专业的山地自行车手会主动让减震器充分压缩，然后平稳地反弹，以吸收能量。
+
+Speaker 3:
+EN: Processly your legs have to be active，they must。consciously compress absorbing that upward moving energy of the snow pushing back instead of letting that force kick you into the area through you off balance，the mental Q should be don't fight the force manage it。
+CN: 过程中你的双腿必须活动起来，它们必须。有意识地压缩吸收雪向上移动的能量，而不是让那股力量把你踢到失去平衡的区域，心理Q应该是不要对抗力量来控制它。
+
+Speaker 2:
+EN: So thinking down and then compressing my center of mass closer to this ski。
+CN: 于是想了想，然后将我的重心压缩到离这个滑雪板更近的地方。
+
+Speaker 3:
+EN: Yes rather than out in stiff，which just results in uncontrolled，rebounded。 Mastering this dynamic absorption that's the faith fundamental and action。
+CN: 是的，而不是僵硬地出局，那样只会导致失控，反弹。掌握这种动态吸收，才是信念的根本和行动。
+
+Speaker 2:
+EN: OK，so we establish how to manage forces both literally and link wise that's pressure control。now we move on to steering rotational control。this is the force fundamental and it dictates the actually direction this skies are pointed。
+CN: 好的，我们建立了如何从字面上和链接方面管理力，即压力控制。现在我们继续转向旋转控制。这是力的基本原理，它决定了天空所指向的实际方向。
+
+Speaker 3:
+EN: It's all about applying rotational movement to the skies without disrupting those pressure and Azure relationships with RT set up so when you're initiating and guiding a turn they're basically two ways to apply rotation。but only one of them is affected for you know，long term skill development and that is legitation。
+CN: 这一切都是为了在不破坏这些压力的情况下将旋转运动应用到天空，并且与 RT 建立 Azure 关系，因此当您启动和引导转弯时，它们基本上是应用旋转的两种方式。但只有其中一种受到影响，因为您知道，长期技能发展，那就是合法性。
+
+Speaker 2:
+EN: The physics behind this choice seems pretty clear。control requires isolation。
+CN: 这个选择背后的物理原理似乎很清楚。控制需要隔离。
+
+Speaker 3:
+EN: Does let's start with the preferred method legitation whereas this movement actually reginate。and what makes it so much？
+CN: 让我们从首选方法合法化开始，而这一运动实际上重新启动了。是什么让它如此重要？
+
+Speaker 2:
+EN: Better let's do。
+CN: 最好让我们这样做。
+
+Speaker 3:
+EN: It legitation happens。exclusively at the hip sockets it's the famous rotating within the palvis。this movement controls the rotation of momentum of the skills and it happens undemy a relatively stable upper。
+CN: 它发生的合法性。仅在髋关节窝处，这是著名的手掌内旋转。此运动控制了技能动量的旋转，并且它发生在相对稳定的鞋面中。
+
+Speaker 2:
+EN: Body and it's the purity is in its precision。
+CN: 身体和它的纯粹在于它的精确。
+
+Speaker 3:
+EN: It's in it's versatility and it's controll position yes，a scare condictate exactly how long the rotational input last。 The process of turn they want to initiate and the speed which that rotation happens Plus，and this is huge。you can control each ski independently，which is in valuable for managing uneven to rain or you know various snow textures。
+CN: 它的多功能性和它的控制位置是的，一个恐惧准确地指示了旋转输入持续多长时间。他们想要启动的转弯过程和旋转发生的速度加上，这是巨大的。你可以独立控制每个滑雪板，这对于管理不均匀的降雨或你知道各种雪纹理是有价值的。
+
+Speaker 2:
+EN: So we're talking that steering the legs actively like a Rutter on a boat。 And just letting this keys wander，where they want that's a great image but beginners and I was happened to upper body rotation yeah，and that's where the chaos begins。
+CN: 所以我们说的是像船上的拉特一样积极地转向腿。然后让这个键徘徊，他们想要的地方这是一个很棒的图像，但是初学者和我碰巧上半身旋转是的，这就是混乱开始的地方。
+
+Speaker 3:
+EN: Oh，yeah，upper body rotation is when the sear turn the upper half first their shoulders。 And the legs is just kind of drag the long passively如。
+CN: 哦，是的，上身旋转就是当灼烧时先转动上半身肩膀。而腿只是被动地拖长如。
+
+Speaker 2:
+EN: Usually started with a big aggressive swing at the shoulders down the Hill。
+CN: 通常从肩部向山下猛烈摆动开始。
+
+Speaker 3:
+EN: That's the most common form of it？yeah，but it can range of that big of your shoulder，swing to a really subtle in turnalized turn of the pelvist that just pulls the legs with it。
+CN: 这是最常见的形式？是的，但它的范围可以是你的肩膀那么大，摆动到骨盆的一个非常微妙的转动，只是拉动腿。
+
+Speaker 2:
+EN: So we connect this back to the bigger picture and the physics we talk to about a reallyer，what of the primary drawbacks of using the huge mass of the torso for steering。
+CN: 因此，我们将其与我们谈论的更大的图景和物理学联系起来，更真实的是，使用巨大的躯干质量进行转向的主要缺点是什么。
+
+Speaker 3:
+EN: The major drawback is all about angular momentum，and Timing。 Your tourist has a large moment of nursea。once that big Masters rotating it is extremely difficult to precisely control the duration the rate or the Timing？
+CN: 主要缺点是角动量和时间。你的游客有一个很大的力矩。一旦大大师旋转，很难精确控制持续时间、速率或时间？
+
+Speaker 2:
+EN: Of it。
+CN: 其中。
+
+Speaker 3:
+EN: And this often results in two critical errors first，the turn is initiated either two early or two late relative to the line that skill actually wants to hold。 Second the movement often causes the inside ski to begin turning before the outside ski。
+CN: 这通常会导致两个严重错误，首先，相对于技能实际想要保持的路线而言，转弯要么提前两次，要么晚两次开始。其次，运动通常会导致内侧滑雪板在外侧滑雪板之前开始转弯。
+
+Speaker 2:
+EN: And the second the inside ski is have lost all your control。
+CN: 第二个里面的滑雪板就失去了所有的控制。
+
+Speaker 3:
+EN: You have it causes a media directional instability because the turning force is just so poorly distributed across your base of support。the ski then has to use these large react of kind of movement。
+CN: 它会导致介质方向不稳定，因为旋转力在支撑底座上的分布很差。然后滑雪板必须使用这些大的运动反作用力。
+
+Speaker 2:
+EN: Swing the hands out over edging like crazy。
+CN: 疯狂地在边缘上挥动双手。
+
+Speaker 3:
+EN: All of it just to stop the unwonded rotation of amentum。 And that creates instability through the entire rest of the arc legitation just eliminates that whole cascade reactivity by initiating the turn locally quickly and precisely while keeping the upper body oriented down the Hill。focused on the task ahead，OK。
+CN: 所有这一切只是为了阻止未受伤的动膜旋转。这会通过整个弧形合法性产生不稳定，通过快速而精确地局部启动转弯，同时保持上半身朝向山下，从而消除整个级联反应性。专注于前面的任务，好的。
+
+Speaker 2:
+EN: So let's that we have that transitioning beginner who is still swinging their shoulders were medically to start to turn they relying on that inevision upper body rotation。 How does an instructor break that habit and introduce pure isolated legs during。
+CN: 因此，让我们让仍在摆动肩膀的过渡初学者在医学上开始依靠预视上半身旋转来转动他们。教练如何打破这种习惯并在过程中引入纯粹的孤立腿。
+
+Speaker 3:
+EN: The instructional focus has to be on physically restricting the upper body's ability to initiate the movement。 You have to emphasize stableization above the waste basically you have to reduce the tourist moment of in nursha during the term。
+CN: 教学重点必须是在身体上限制上半身发起运动的能力。你必须强调稳定而不是浪费，基本上你必须减少努尔沙在学期中的旅游时刻。
+
+Speaker 2:
+EN: This definitely caused for that classic visual cute that every single ski instructor users。
+CN: 这绝对造成了每个滑雪教练用户的经典视觉可爱。
+
+Speaker 3:
+EN: It absolutely does you introduce a simple size slip or Maybe a tovers to or on a very gentle slope and the core instruction is to have them Keep their hands forward and still。 As if they're holding a delicate trade of drinks that they absolutely cannot。spill。
+CN: 它绝对是让你在一个非常平缓的斜坡上进行一个简单的滑倒或翻转，核心指令是让他们保持双手向前并保持静止。就好像他们拿着一份精致的饮料，他们绝对不能溢出。
+
+Speaker 2:
+EN: Right？the trade has to stay level fix relative to the four line。
+CN: 对吗？交易必须相对于四线保持水平固定。
+
+Speaker 3:
+EN: And with the hands and by extension the shoulders are mobilized the skills forced to use only the small powerful muscles of the legs they have to steer，the skills back and for the cross。the slope exclusively from their hip sockets。
+CN: 通过双手和肩膀的伸展，迫使他们只能使用腿部的小而有力的肌肉来转向，向后和交叉的技能。斜坡完全来自他们的臀部插座。
+
+Speaker 2:
+EN: And that's a great dimension because it makes that separation feel achieveable they Suddenly realize。 Oh，I can steer，my feet without twisting my core and。
+CN: 这是一个伟大的维度，因为它让这种分离感觉可以实现，他们突然意识到。哦，我可以操纵我的脚，而无需扭曲我的核心。
+
+Speaker 3:
+EN: It connects right back to that fighter jet technology we used the upper body，is the cockpit fix and stable and the legs are the flat control services that move independently underneath they're practicing rotating the famous with the hip joint without any course bonding turning in the torso and that's building the nerlogical connection for isolated powerful steering。 Right time for a classic rotational confusion that who is happens right after the student successfully stop screening their shoulders。
+CN: 它直接连接到我们使用的战斗机技术，上半身是驾驶舱的固定和稳定，腿部是在下方独立移动的平面控制服务，他们正在练习用髋关节旋转著名的旋转，而躯干中没有任何课程粘合转动，这正在为独立的强力转向建立神经逻辑连接。在学生成功停止筛选肩膀后，就发生了经典的旋转混乱，谁是谁发生的正确时间。
+
+Speaker 2:
+EN: OK，I'm ready the student next when I try to use just my legs，I feel stiff and I can't get my skied to really carve they just got a pivot and skied like an forceing the turn and that feeling of stiffness is so Violet because they're being asked to decouple major body parts the pilves in the legs，which for most of our lives moving Unison but that feeling of pivoting。 Reveals their confucian steering with just forcing the ski side way。
+CN: 好吧，我准备好了，学生接下来当我尝试只使用我的腿时，我感觉僵硬，我无法让我的滑雪板真正雕刻，他们只是得到了一个枢轴，像强行转弯一样滑雪，那种僵硬的感觉是如此紫罗兰色，因为他们被要求将主要的身体部位（腿部的皮尔）分离，这对于我们大多数人来说都是一致移动的，但有旋转的感觉。揭示了他们的儒家转向，只是迫使滑雪板侧向。
+
+Speaker 3:
+EN: We have to validate the necessity of that separation。but then we have to clarify the process mechanism of rotation within the hip the torso should feel stable not stiff。 So you's a powerful grounding metaphor your upper body is a light house。
+CN: 我们必须验证这种分离的必要性。但随后我们必须澄清臀部旋转的过程机制，躯干应该感觉稳定而不是僵硬。所以你是一个强大的接地隐喻，你的上半身是一座灯塔。
+
+Speaker 2:
+EN: Fix steady oriented down the Hill。
+CN: 固定稳定方向下山。
+
+Speaker 3:
+EN: Exactly it's reserving the entire trejectory of the turn it is stable relative to the slope。
+CN: 正是它保留了转弯的整个轨迹，相对于坡度来说是稳定的。
+
+Speaker 2:
+EN: And the legs are the boats writer，moving underneath。
+CN: 而腿就是船的作家，在下面移动。
+
+Speaker 3:
+EN: Precisely，your legs are the boats Rutter moving Suddenly and powerful underneath that stable lighthouse that separation is the key to control you're not trying to force a sudden pivot that just gives the ski you are stiring the legs within the hip socket like like like rotating a key and a lock it's a gradually。
+CN: 准确地说，你的双腿是船，在稳定的灯塔下突然而有力地移动，分离是控制的关键，你不是试图强行突然旋转，这只是让滑雪板你在臀部插座内搅动双腿，就像旋转钥匙和锁一样，它是逐渐的。
+
+Speaker 2:
+EN: Movement so it's an internal rotation of the famous。
+CN: 所以这是著名的内部旋转运动。
+
+Speaker 3:
+EN: It is a precise steering input separate from the tour so and once the edgeser engage，which will get too next that smooth internal rotation is what allows the ski to hook up cleanly and carve the intended arc rather than being forced into a skid。
+CN: 这是一个独立于滑雪路线的精确转向输入，因此一旦修边器接合，接下来就会出现平滑的内部旋转，从而使滑雪板能够干净地挂起并刻出预期的弧度，而不是被迫打滑。
+
+Speaker 2:
+EN: OK，we have managed the force we have managed the direction now we move to the final core skill edging control。this is the third fundamental skill，the geometry of ski。 It how we manipulate the angle of the ski realtive to the snow to create those beautiful clean carved arks。
+CN: 好的，我们已经控制好了方向，现在我们进入最后的核心技能边缘控制。这是第三个基本技能，滑雪板的几何形状。它是我们如何控制滑雪板相对于雪的角度​​来创建那些美丽干净的雕刻方舟。
+
+Speaker 3:
+EN: Aging control is essential it's。what about you to hold a line，especially in heart，pack her eyes，the metal，edges or what group？the snow and we tip the ski onto it side to make them work。
+CN: 老化控制是必不可少的。你要不要控制住一条线，尤其是在心里，包住她的眼睛，金属，边缘或什么组？雪，我们将滑雪板倾斜到它的一侧，使它们发挥作用。
+
+Speaker 2:
+EN: And we do that through two complementary mechanical methods that I think beginners often confused yeah inclination and angulation。
+CN: 我们通过两种互补的机械方法来做到这一点，我认为初学者经常混淆倾斜度和角度。
+
+Speaker 3:
+EN: What's start with inclination it's the simpler of the two concepts inclination is just moving your entire center of mass to the inside of the turn to balance against those overwhelming letter or force it's very similar to leaning an motorcycle or a bicycle into return the whole。
+CN: 从倾斜度开始，它是两个概念中更简单的一个。倾斜度只是将你的整个质心移动到转弯内侧，以平衡那些压倒性的字母或力量，这与倾斜摩托车或自行车以返回整体非常相似。
+
+Speaker 2:
+EN: Body links is one。
+CN: 身体链接就是其中之一。
+
+Speaker 3:
+EN: Unit if it's done actually，yes，the motion should be similar the feet tip the needs tip the hips tip and the shoulders follow so the entire body is leaning into the Hill。 And the degree of inclination you need is directly proportional to the speed and the radius of your term。
+CN: 如果实际完成的话，是的，动作应该是类似的，脚尖需要倾斜，臀部倾斜，肩膀跟随，所以整个身体倾斜到山上。并且你需要的倾斜度与你的速度和半径成正比。
+
+Speaker 2:
+EN: So faster speed and tighter arts require more lean more inclination。
+CN: 所以更快的速度和更严格的艺术需要更精益更多的倾向。
+
+Speaker 3:
+EN: Exactly the critical error though is when skills use only upper body inclination。they just followed over at the waste without enough tipping from their feat legs。
+CN: 确切地说，关键错误是当技能仅使用上半身倾斜时。他们只是在废物处跟随，而没有从他们的壮举腿上获得足够的倾斜。
+
+Speaker 2:
+EN: The classic a frame stem。
+CN: 经典的A架干。
+
+Speaker 3:
+EN: That's The One if you only lean your tour，so you might feel balance Lately for a second。 But your feet art tipping the skies enough to generate the required edge angle and this results in minimal AG engagement，which then requires the skier to skit to complete the turn。
+CN: 如果你只倾斜你的滑雪路线，那么你可能会感到平衡一秒钟。但是你的脚艺术足以倾斜天空以产生所需的边缘角度，这会导致最小的 AG 接合，然后需要滑雪者滑行以完成转弯。
+
+Speaker 2:
+EN: And that leads directly to the more complex higher performance mechanism。
+CN: 这直接导致了更复杂的更高性能的机制。
+
+Speaker 3:
+EN: Angelation this is about creating angles between your body parts it's the subtle separation that's an necessary to achieve a higher angle will still maintaining the stability of mass。
+CN: 角度这是关于在你的身体部位之间创建角度，这是实现更高角度所必需的微妙分离，但仍能保持质量的稳定性。
+
+Speaker 2:
+EN: And we have two key texts here need angulation and hip angulation。
+CN: 我们这里有两个关键文本需要角度和臀部角度。
+
+Speaker 3:
+EN: NE enclation is the most media one it's。when your lower leg is tipped more grasply than your upper leg creating an angle at the need joint this allowance for really quick fine adjustments of the edge angle and it's crucial and short terms where you just't have time for massive inclination it's a localized tipping movement and it's initiated primary by the food and ankle inside the boot。
+CN: NE 包裹是最媒体的一种。当你的小腿比你的大腿更容易倾斜时，在需要的关节处形成一个角度，这样可以快速微调边缘角度，这是至关重要的，在短期内你没有时间进行大规模倾斜，这是一种局部倾斜运动，它主要由靴子内的食物和脚踝引发。
+
+Speaker 2:
+EN: And then he pingguation the more powerful one is vital for high speed RX。
+CN: 然后他分析更强大的一个对于高速RX至关重要。
+
+Speaker 3:
+EN: Exactly。 Hip banglation is when your legs are tips significantly more than your upper body creating that necessary angle at the hipsocket this is vital for higher performance terms where you need to really aggressive edgangle high inclination but you also have to maintain your upper body centered over your base of support for balance and stability。
+CN: 确实如此。髋部敲击是指当你的双腿尖端明显大于上半身时，在髋臼处形成必要的角度，这对于更高的性能来说至关重要，因为你需要真正具有侵略性的高倾斜角，但你还必须保持上半身位于支撑底座的中心，以保持平衡和稳定。
+
+Speaker 2:
+EN: It's that fighter jet pilot resistance we Keep coming back to。
+CN: 这就是我们不断回想起的战斗机飞行员的抵抗。
+
+Speaker 3:
+EN: It is it allows the skill to counter act the letter of force without collapseing in Word。 And what's truly fascinating is how the source is emphasize that controlling the agenda isn't one single movement it's a complex interwoven dynamic of three fundamental skills all working at once。
+CN: 它让技能能够对抗武力的文字，而不会在Word中崩溃。真正令人着迷的是，消息来源如何强调控制议程不是一个单一的动作，而是三种基本技能同时发挥作用的复杂交织的动态。
+
+Speaker 2:
+EN: The tipping lumen of the legs is never isolated。
+CN: 腿部的倾斜内腔从来都不是孤立的。
+
+Speaker 3:
+EN: Never it's a combination of tipping the feet and lower legs。that's angulation flexing the needs and hips for pressure magnitude control and the rotational input of stiring the legs。 And this complex dynamic blend is critical for two major reason，OK first it gives you extremely process fine tuned control over your adjango throughout the entire Ark and second and this is Maybe more important by distributing the turning force across，the multiple flexed and rotated joints it helps the scare avoid puting too much direct sharing letteral stress on the need joint，which is a major major consider that high speeds it's。
+CN: 绝不是倾斜脚和小腿的组合。这是弯曲需求和臀部的角度，以控制压力大小和搅拌腿部的旋转输入。这种复杂的动态混合至关重要，有两个主要原因，好的，首先，它为您提供了对整个方舟上的阿詹戈的极其精细的控制，其次，这可能更重要，通过分布旋转力，多个弯曲和旋转的关节，它有助于吓人避免在需要的关节上施加过多的直接分担压力，这一个主要考虑因素是它的速度高。
+
+Speaker 2:
+EN: Help that in the media。 He wants to create clean car of shapes instead of skating all the time。they know they need to use their edges，but they engage them too late and it causes this sudden aggressive pivot they need early subtle aging engagement。
+CN: 在媒体上帮助这一点。他想要创造形状干净的汽车，而不是一直滑冰。他们知道他们需要使用他们的边缘，但他们太晚了，这导致了这种突然的侵略性枢轴，他们需要早期微妙的老化参与。
+
+Speaker 3:
+EN: OK，we need to drill that force a media active tipping and angulation and it has to remove the confusion of any steering important。 So aside sipping drill on a gentle Trevor is the Perfect environment focuses purely on the tipping motion。
+CN: 好的，我们需要进行钻孔，迫使介质主动倾斜和成角度，并且必须消除任何重要转向的混乱。因此，除了在温和的 Trevor 上啜饮钻孔之外，完美的环境纯粹专注于倾斜运动。
+
+Speaker 2:
+EN: So how do we kill them to use that subtle in turnalized neenglation right at the very beating in the turn。
+CN: 那么我们如何杀死他们，以便在回合中的打击中使用这种微妙的回合化neenglation。
+
+Speaker 3:
+EN: The instructor has to connect the movement to a very specific small motor function in the flute。 The instruction is to cue the sensation in the outside food by asking the skill to deliverly squash，a grape under the little toe of their outside。
+CN: 教练必须将这个动作与长笛中一个非常具体的小运动功能联系起来。指导是通过要求技能在他们外侧的小脚趾下传送南瓜，来暗示外部食物的感觉。
+
+Speaker 2:
+EN: Food that is highly specific it is。
+CN: 食物是高度具体的。
+
+Speaker 3:
+EN: And that's specific Q force is the food to tip literally inside the book，which a medialy drives in the inward and initiate that early need angelations。
+CN: 这就是特定的 Q 力量，它是真正在书中倾斜的食物，它是一种媒介驱动的内在力量，并引发早期需要的天使化。
+
+Speaker 2:
+EN: So by focusing their mental energy on just the little toe they're engaging the edge before the major choice of you and started to move。
+CN: 因此，通过将他们的精神能量集中在小脚趾上，他们会在你做出重大选择之前就接触到边缘并开始移动。
+
+Speaker 3:
+EN: It completely aliminates that allay。 By focusing on that small toe action the skill engages the edge immediately at the start of the turn and that lives to a clean and non skating arcship。the immediate feedback。they get his autotory the scratchy sound of the aging gating early replace the louds ripping sound of skating later in the turn，all right now for the classic angelation confusion，and this one is all about the hips skills often here，hip angelation and they try to Fall themselves and half。
+CN: 它完全消除了这种缓解。通过专注于小脚趾动作，该技能在转弯开始时立即接合边缘，并实现干净且非滑行的弧形。即时反馈。他们得到了他的自述，老化门的沙哑声音早期取代了转弯后期滑冰的响亮撕裂声，现在是经典的天使混乱，而这一切都是关于这里经常出现的臀部技能，臀部天使，他们试图摔倒自己和一半。
+
+Speaker 2:
+EN: I've done this。this do not when I try to use my hips to angulate。 I feel like I'm breaking it the waste and's put in way too much pressure on my lower back。I just feel weak and this is a Perfect illustration of confucian forward bending a hinge with lateral angelation，which is more of a side bander of push they're initiating the angle by hinging forward。 Which just strains the back and pushes their CM two far inside the turn way to really。
+CN: 我已经做到了。当我尝试使用我的臀部形成角度时，不会这样做。我觉得我正在打破浪费，并且对我的下背部施加了太大的压力。我只是感到虚弱，这是儒家向前弯曲具有横向角度的铰链的完美例证，这更像是推动的侧带，他们通过向前铰链启动角度。这只会拉紧背部并将他们的CM两个推向真正的转向内侧。
+
+Speaker 3:
+EN: We have to clarify that heaping gulation is a little movement it'S a push into the Hill，not a forward bull。the correcting metaphor needs to emphasize stability and a little push against the force so you use the image。 Hiping relation isn't baling forward it's pushing your hip literally into the Hill like you're trying to push your button to the tight pocket of a pair of jeans。
+CN: 我们必须澄清，堆起的动作是一个小动作，它是推入山丘，而不是向前的公牛。正确的隐喻需要强调稳定性和一点对抗力的推力，以便你使用图像。臀部关系不是向前打包，而是将你的臀部推入山丘，就像你试图将按钮按到一条牛仔裤的紧口袋里一样。
+
+Speaker 2:
+EN: So we're talking about tilting the pilves not folding this spine。
+CN: 所以我们讨论的是倾斜脊柱而不是折叠脊柱。
+
+Speaker 3:
+EN: Exactly the action is about maximizing。the angle between your legs in your toursole，while you're maintaining a strong athletic spin alignment。 Think about keeping your shoulder's level with the slope the lighthouse stay steady，while you're actively pushing your needs and hips away from the center of your body。
+CN: 确切地说，这个动作就是最大化。你的双腿之间的角度在你的脚底上，同时你保持强大的运动旋转对齐。考虑保持你的肩膀与灯塔保持稳定的斜坡水平，同时你积极地将你的需求和臀部推离你的身体中心。
+
+Speaker 2:
+EN: The angles should feel stable and supported。
+CN: 角度应该感觉稳定且有支撑。
+
+Speaker 3:
+EN: It should feel intensely supported rooted by the strong engagement and compression of that outside leg not strained by folding your upper body forward or collapseing inward。that letter or push is what allows you to resist that massive centrifical force without losing your crucial edge。 Hashtag tactag outro。
+CN: 它应该感觉受到强烈的支撑，扎根于外侧腿的强力接合和压缩，而不是因上半身向前折叠或向内塌陷而拉紧。那个字母或推力可以让你抵抗巨大的离心力，而不失去你的关键优势。Hashtag tactag outro。
+
+Speaker 2:
+EN: Well，those in extremely throughout deep dive desecting the process coriography that's required to master Alpine skin we going from，you know，academic physics all it down to actionable joint movements。
+CN: 好吧，那些在极其深入的研究中剖析了掌握高山皮肤所需的工艺过程，我们从学术物理学到可操作的关节运动。
+
+Speaker 3:
+EN: And to quickly summarize the whole integrated system we covered the three core skills。 Pressure control，which is managing the false mangetutin distribution using those five fundamentals then rotational control which is steering with the legs from the hipsockets and finally edging control，which is tipping the ski using that complex combination of inclination and angelation。
+CN: 为了快速总结整个集成系统，我们涵盖了三个核心技能。压力控制，即使用这五个基本原理来管理假曼格图丁分布，然后是旋转控制，即用腿从臀部插座转向，最后是边缘控制，即使用倾斜和角度的复杂组合来倾斜滑雪板。
+
+Speaker 2:
+EN: And what's so crucial for you the listener to realize is that these three skills are constantly interwoven their interdependent you can't get optimal edge control without process pressure distribution。
+CN: 作为听众，最重要的是要认识到，这三种技能不断地交织在一起，相互依存，如果没有过程压力分布，您就无法获得最佳的边缘控制。
+
+Speaker 3:
+EN: And you can't manage pressure without smooth rotational input it's a constant feedback loop。
+CN: 如果没有平滑的旋转输入，你就无法管理压力，这是一个恒定的反馈循环。
+
+Speaker 2:
+EN: So let's connect the dots one final time let's look at the full turn cycle。
+CN: 那么，让我们最后一次把这些点联系起来，看看完整的转弯周期。
+
+Speaker 3:
+EN: OK，the movements stars with controlling your center of mass relative to your base of support to manage that four after pressure that's your angle and hipset simultaneically you initiate the steer with active legitation。 The writer，movement right as the turn develops you manage the ski to ski pressure making true。the majority of the force is on that outside ski by using differential leg flexing and that upper body counter tilting，you get the high jangles，you need through a precise combination of inclination and angelation。
+CN: 好的，这些动作的重点是控制相对于支撑基础的重心，以管理四个后压力，即你的角度和臀部，同时你以积极的合法性启动转向。作者，随着转弯的发展，向右运动，你可以管理滑雪板到滑雪板的压力，使之成为现实。通过使用不同的腿部弯曲和上半身反倾斜，大部分力量都集中在外侧滑雪板上，你会得到高刺耳的声音，你需要通过倾斜和角度的精确组合。
+
+Speaker 2:
+EN: All while regulating，the magnitude of the force。 Absorbing that peak pressure with timely compression keeping the ski glue to the snow。
+CN: 始终调节力的大小。及时压缩吸收峰值压力，使滑雪胶保持在雪上。
+
+Speaker 3:
+EN: That's the whole dance。
+CN: 这就是整个舞蹈。
+
+Speaker 2:
+EN: It sounds like a thousand things happening it once，but when you break it down into these specific joint movements the ankle of the knee the hip it Suddenly becomes actionable you stop trying to try harder and you start trying to move precisely。
+CN: 听起来好像有上千件事发生一次，但是当你把它分解成这些特定的关节运动时，脚踝、膝盖、臀部，它突然变得可操作，你不再试图更加努力，而是开始尝试精确地移动。
+
+Speaker 3:
+EN: That is the ultimate goal of the steepedive and here's a final provocate of thought for you to carry up the care of the next time what's here。 The greatest difference between an Office and an expert skier lies not in how fast they can go，but in how skillfully they utilize resistance and absorption to manage the amens forces exerted by the snow so what's subtle movement that process shocks UPS or bertimeing in your legs are that little bit of ankle flex leading the turn。what are you going to focus on mastering next time you observe your own skin。
+CN: 这是陡降的最终目标，这里是最后一个引发你思考的问题，让你下次继续关注这里的情况。办公室滑雪者和专业滑雪者之间最大的区别不在于他们能走多快，而在于他们如何巧妙地利用阻力和吸收力来管理雪施加的力量，所以在你的双腿中产生冲击的微妙运动是在转弯时脚踝的一点弯曲。你要关注什么下次观察自己的皮肤时就掌握了。
+
+Speaker 2:
+EN: That's an excellent challenge knowing the mechanics really turn is the mountain from this overwhelming obstical cours into a focus。 Physical avatary，we hope this deep die that help she find that Perfect quite controlled art next time you hit the slopes until next time Keep exploreing。
+CN: 这是一个极好的挑战，因为知道机制真正将山从这个压倒性的障碍路线转变为焦点。物理化身，我们希望这个深模具可以帮助她在下次滑雪时找到完美的完全控制的艺术，直到下一次继续探索。
